@@ -1,0 +1,2365 @@
+{
+    "Codec": 22,
+    "Platform": "Windows",
+    "Rpcs": [
+        {
+            "IsArray": false,
+            "NameHash": 2943079866,
+            "Parameters": [
+                {
+                    "InternalIndex": 3,
+                    "Key": 1229541844,
+                    "NameHash": 3950288394,
+                    "Offset": 32,
+                    "Type": 0,
+                    "XFieldName": "LDDFCEHJOJH",
+                    "FieldName": "unknown1"
+                },
+                {
+                    "InternalIndex": 1,
+                    "Key": 807415940,
+                    "NameHash": 3414391508,
+                    "Offset": 36,
+                    "Type": 0,
+                    "XFieldName": "KDJNFGDNNMO",
+                    "FieldName": "unknown2"
+                }
+            ],
+            "XClassName": "OBOOIEFBDFB",
+            "XParentName": "AEMGNFCLLIO",
+            "ClassName": "ACInitRpc",
+            "ParentName": "InRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 551575954,
+            "Parameters": [
+                {
+                    "InternalIndex": 1,
+                    "Key": null,
+                    "NameHash": 2057699826,
+                    "Offset": 32,
+                    "Type": 10,
+                    "XFieldName": "JPALKPLMBOG",
+                    "FieldName": "data"
+                }
+            ],
+            "XClassName": "HPGGEENNGPO",
+            "XParentName": "AEMGNFCLLIO",
+            "ClassName": "ACToClientRpc",
+            "ParentName": "InRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 2983157516,
+            "Parameters": [
+                {
+                    "InternalIndex": 0,
+                    "Key": null,
+                    "NameHash": 2044541294,
+                    "Offset": 16,
+                    "Type": 10,
+                    "XFieldName": "JPALKPLMBOG",
+                    "FieldName": "data"
+                }
+            ],
+            "XClassName": "HFBEFDCDJAJ",
+            "XParentName": "GLAFJMPKFHL",
+            "ClassName": "ACToServerRpc",
+            "ParentName": "OutRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 3995335697,
+            "Parameters": [
+                {
+                    "InternalIndex": 1,
+                    "Key": null,
+                    "NameHash": 2458196533,
+                    "Offset": 32,
+                    "Type": 3,
+                    "XFieldName": "DCBENGGCEKA",
+                    "FieldName": "json"
+                }
+            ],
+            "XClassName": "DCLEPNLPHLD",
+            "XParentName": "AEMGNFCLLIO",
+            "ClassName": "AccountSessionRpc",
+            "ParentName": "InRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 1385152107,
+            "Parameters": [
+                {
+                    "InternalIndex": 2,
+                    "Key": 87519037,
+                    "NameHash": 546889247,
+                    "Offset": 32,
+                    "Type": 0,
+                    "XFieldName": "DPMGNMKHIAN",
+                    "FieldName": "landingTick"
+                },
+                {
+                    "InternalIndex": 3,
+                    "Key": 2408577725,
+                    "NameHash": 4032925625,
+                    "Offset": 36,
+                    "Type": 0,
+                    "XFieldName": "LIMIBHMGGFH",
+                    "FieldName": "airDropUid"
+                },
+                {
+                    "InternalIndex": 4,
+                    "Key": 1863261076,
+                    "NameHash": 442853179,
+                    "Offset": 40,
+                    "Type": 2,
+                    "XFieldName": "PKCOHLMCGNI",
+                    "FieldName": "x"
+                },
+                {
+                    "InternalIndex": 0,
+                    "Key": 705512269,
+                    "NameHash": 1330070406,
+                    "Offset": 44,
+                    "Type": 2,
+                    "XFieldName": "ACJKGAAOHGA",
+                    "FieldName": "y"
+                }
+            ],
+            "XClassName": "HMGHAOIGPNK",
+            "XParentName": "AEMGNFCLLIO",
+            "ClassName": "AirDropRpc",
+            "ParentName": "InRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 760522179,
+            "Parameters": [],
+            "XClassName": "HONFCCPBLII",
+            "XParentName": "GLAFJMPKFHL",
+            "ClassName": "AutoFillRpc",
+            "ParentName": "OutRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 3306107029,
+            "Parameters": [],
+            "XClassName": "OLICFIEEODO",
+            "XParentName": "GLAFJMPKFHL",
+            "ClassName": "CancelActionRpc",
+            "ParentName": "OutRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 108339461,
+            "Parameters": [],
+            "XClassName": "HJLPFBJMIHN",
+            "XParentName": "AEMGNFCLLIO",
+            "ClassName": "CheatingDetectedRpc",
+            "ParentName": "InRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 1982540412,
+            "Parameters": [
+                {
+                    "InternalIndex": 3,
+                    "Key": null,
+                    "NameHash": 3545573571,
+                    "Offset": 32,
+                    "Type": 3,
+                    "XFieldName": "MEIAKBPMJCE",
+                    "FieldName": "dataName"
+                },
+                {
+                    "InternalIndex": 1,
+                    "Key": null,
+                    "NameHash": 1931268310,
+                    "Offset": 40,
+                    "Type": 11,
+                    "XFieldName": "DCBENGGCEKA",
+                    "FieldName": "json"
+                }
+            ],
+            "XClassName": "ICCCJMAPFHB",
+            "XParentName": "AEMGNFCLLIO",
+            "ClassName": "CompressedDataRpc",
+            "ParentName": "InRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 1352976292,
+            "Parameters": [],
+            "XClassName": "PFNAFPLANJN",
+            "XParentName": "GLAFJMPKFHL",
+            "ClassName": "ConsumeRpc",
+            "ParentName": "OutRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 2982345271,
+            "Parameters": [
+                {
+                    "InternalIndex": 4,
+                    "Key": 2796610040,
+                    "NameHash": 181324329,
+                    "Offset": 32,
+                    "Type": 0,
+                    "XFieldName": "OFCIJBINEIB",
+                    "FieldName": "uid"
+                },
+                {
+                    "InternalIndex": 2,
+                    "Key": 92002601,
+                    "NameHash": 2038766690,
+                    "Offset": 36,
+                    "Type": 2,
+                    "XFieldName": "GKMGBKJINKD",
+                    "FieldName": "healthDamage"
+                },
+                {
+                    "InternalIndex": 6,
+                    "Key": 3128876437,
+                    "NameHash": 2984510132,
+                    "Offset": 40,
+                    "Type": 2,
+                    "XFieldName": "OEPDGAOAGPO",
+                    "FieldName": "shieldDamage"
+                },
+                {
+                    "InternalIndex": 1,
+                    "Key": 3564409184,
+                    "NameHash": 3428451705,
+                    "Offset": 44,
+                    "Type": 2,
+                    "XFieldName": "HPFIMMFKJOJ",
+                    "FieldName": "knockedDownDamage"
+                }
+            ],
+            "XClassName": "BHJJOKBKFDC",
+            "XParentName": "AEMGNFCLLIO",
+            "ClassName": "DamageRpc",
+            "ParentName": "InRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 456879854,
+            "Parameters": [],
+            "XClassName": "GGDHGLJCNIG",
+            "XParentName": "AEMGNFCLLIO",
+            "ClassName": "DataFinishedRpc",
+            "ParentName": "InRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 3608091158,
+            "Parameters": [
+                {
+                    "InternalIndex": 2,
+                    "Key": null,
+                    "NameHash": 1411787733,
+                    "Offset": 32,
+                    "Type": 3,
+                    "XFieldName": "MEIAKBPMJCE",
+                    "FieldName": "dataName"
+                },
+                {
+                    "InternalIndex": 3,
+                    "Key": null,
+                    "NameHash": 2602237880,
+                    "Offset": 40,
+                    "Type": 3,
+                    "XFieldName": "DCBENGGCEKA",
+                    "FieldName": "json"
+                }
+            ],
+            "XClassName": "OLGOFOBDJHH",
+            "XParentName": "AEMGNFCLLIO",
+            "ClassName": "DataRpc",
+            "ParentName": "InRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 1600567576,
+            "Parameters": [
+                {
+                    "InternalIndex": 1,
+                    "Key": 1490823043,
+                    "NameHash": 1394307699,
+                    "Offset": 32,
+                    "Type": 0,
+                    "XFieldName": "JIADCPOFNNF",
+                    "FieldName": "startTick"
+                },
+                {
+                    "InternalIndex": 2,
+                    "Key": 629192181,
+                    "NameHash": 1542127304,
+                    "Offset": 36,
+                    "Type": 0,
+                    "XFieldName": "CODDDKLCHJO",
+                    "FieldName": "endTick"
+                },
+                {
+                    "InternalIndex": 0,
+                    "Key": 702141062,
+                    "NameHash": 3276443126,
+                    "Offset": 40,
+                    "Type": 8,
+                    "XFieldName": "BFIIAMOLGLP",
+                    "FieldName": "isDay"
+                }
+            ],
+            "XClassName": "FNBPOPJACBH",
+            "XParentName": "AEMGNFCLLIO",
+            "ClassName": "DayNightRpc",
+            "ParentName": "InRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 3129844545,
+            "Parameters": [
+                {
+                    "InternalIndex": 0,
+                    "Key": 359248480,
+                    "NameHash": 3574619454,
+                    "Offset": 32,
+                    "Type": 0,
+                    "XFieldName": "KMMHAHDPJMB",
+                    "FieldName": "rank"
+                },
+                {
+                    "InternalIndex": 2,
+                    "Key": 2368928736,
+                    "NameHash": 1864054267,
+                    "Offset": 36,
+                    "Type": 0,
+                    "XFieldName": "EEKMCPHLGFO",
+                    "FieldName": "kills"
+                },
+                {
+                    "InternalIndex": 1,
+                    "Key": 1084137789,
+                    "NameHash": 4021995272,
+                    "Offset": 40,
+                    "Type": 0,
+                    "XFieldName": "BEPOOOOBHFL",
+                    "FieldName": "lifetime"
+                },
+                {
+                    "InternalIndex": 4,
+                    "Key": 854903361,
+                    "NameHash": 880955326,
+                    "Offset": 44,
+                    "Type": 0,
+                    "XFieldName": "HGPLCDKIGJI",
+                    "FieldName": "respawnAllowedAt"
+                }
+            ],
+            "XClassName": "BIONLLHFDDL",
+            "XParentName": "AEMGNFCLLIO",
+            "ClassName": "DeadRpc",
+            "ParentName": "InRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 182484045,
+            "Parameters": [
+                {
+                    "InternalIndex": 0,
+                    "Key": 2021118465,
+                    "NameHash": 4225311341,
+                    "Offset": 16,
+                    "Type": 8,
+                    "XFieldName": "ENMOGEPBAAF",
+                    "FieldName": "ammoIndex"
+                }
+            ],
+            "XClassName": "MGDNHGEGCCN",
+            "XParentName": "GLAFJMPKFHL",
+            "ClassName": "DropAmmoRpc",
+            "ParentName": "OutRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 3769404125,
+            "Parameters": [
+                {
+                    "InternalIndex": 1,
+                    "Key": 2514269933,
+                    "NameHash": 1472635040,
+                    "Offset": 16,
+                    "Type": 0,
+                    "XFieldName": "IPOAHGFNLEK",
+                    "FieldName": "inventorySlot"
+                },
+                {
+                    "InternalIndex": 2,
+                    "Key": 3795876107,
+                    "NameHash": 762909135,
+                    "Offset": 20,
+                    "Type": 2,
+                    "XFieldName": "PKCOHLMCGNI",
+                    "FieldName": "x"
+                },
+                {
+                    "InternalIndex": 0,
+                    "Key": 3449433326,
+                    "NameHash": 2492797406,
+                    "Offset": 24,
+                    "Type": 2,
+                    "XFieldName": "ACJKGAAOHGA",
+                    "FieldName": "y"
+                }
+            ],
+            "XClassName": "KDLGPHMFMAI",
+            "XParentName": "GLAFJMPKFHL",
+            "ClassName": "DropItemRpc",
+            "ParentName": "OutRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 1703080267,
+            "Parameters": [
+                {
+                    "InternalIndex": 4,
+                    "Key": 265392373,
+                    "NameHash": 1497053774,
+                    "Offset": 32,
+                    "Type": 0,
+                    "XFieldName": "KMMHAHDPJMB",
+                    "FieldName": "rank"
+                },
+                {
+                    "InternalIndex": 0,
+                    "Key": 1194394379,
+                    "NameHash": 811746715,
+                    "Offset": 36,
+                    "Type": 0,
+                    "XFieldName": "EEKMCPHLGFO",
+                    "FieldName": "kills"
+                },
+                {
+                    "InternalIndex": 5,
+                    "Key": 533886211,
+                    "NameHash": 4108167989,
+                    "Offset": 40,
+                    "Type": 0,
+                    "XFieldName": "BEPOOOOBHFL",
+                    "FieldName": "lifetime"
+                },
+                {
+                    "InternalIndex": 1,
+                    "Key": 2231681436,
+                    "NameHash": 1876164474,
+                    "Offset": 44,
+                    "Type": 0,
+                    "XFieldName": "MDIDBMCJFCB",
+                    "FieldName": "zombieKills"
+                },
+                {
+                    "InternalIndex": 6,
+                    "Key": null,
+                    "NameHash": 3903599890,
+                    "Offset": 48,
+                    "Type": 3,
+                    "XFieldName": "OIHGBDODKLL",
+                    "FieldName": "analytics"
+                },
+                {
+                    "InternalIndex": 7,
+                    "Key": 139671866,
+                    "NameHash": 978280739,
+                    "Offset": 56,
+                    "Type": 0,
+                    "XFieldName": "HAHMHAJPAJP",
+                    "FieldName": "resetTick"
+                }
+            ],
+            "XClassName": "LEIHCBKNFFF",
+            "XParentName": "AEMGNFCLLIO",
+            "ClassName": "EndOfGameStatsRpc",
+            "ParentName": "InRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 1835043973,
+            "Parameters": [
+                {
+                    "InternalIndex": 0,
+                    "Key": 22149317,
+                    "NameHash": 2671928772,
+                    "Offset": 16,
+                    "Type": 0,
+                    "XFieldName": "OFCIJBINEIB",
+                    "FieldName": "uid"
+                }
+            ],
+            "XClassName": "KIAHJIALPHF",
+            "XParentName": "GLAFJMPKFHL",
+            "ClassName": "EnterVehicleRpc",
+            "ParentName": "OutRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 1699074901,
+            "Parameters": [
+                {
+                    "InternalIndex": 0,
+                    "Key": 1182241082,
+                    "NameHash": 3610061660,
+                    "Offset": 16,
+                    "Type": 0,
+                    "XFieldName": "IPOAHGFNLEK",
+                    "FieldName": "inventorySlot"
+                }
+            ],
+            "XClassName": "GDNIGFNONHN",
+            "XParentName": "GLAFJMPKFHL",
+            "ClassName": "EquipItemRpc",
+            "ParentName": "OutRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 761391603,
+            "Parameters": [],
+            "XClassName": "ALAKDAFCHHF",
+            "XParentName": "GLAFJMPKFHL",
+            "ClassName": "ExitVehicleRpc",
+            "ParentName": "OutRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 4090401595,
+            "Parameters": [
+                {
+                    "InternalIndex": 3,
+                    "Key": null,
+                    "NameHash": 2460082010,
+                    "Offset": 32,
+                    "Type": 3,
+                    "XFieldName": "MIEIANOFOHE",
+                    "FieldName": "status"
+                },
+                {
+                    "InternalIndex": 1,
+                    "Key": 2966950642,
+                    "NameHash": 2301559385,
+                    "Offset": 40,
+                    "Type": 0,
+                    "XFieldName": "AKGPHPKALBI",
+                    "FieldName": "countDownEndsTick"
+                }
+            ],
+            "XClassName": "CLBONEDAPEG",
+            "XParentName": "AEMGNFCLLIO",
+            "ClassName": "GameStatusRpc",
+            "ParentName": "InRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 3950616834,
+            "Parameters": [
+                {
+                    "InternalIndex": 4,
+                    "Key": 440768062,
+                    "NameHash": 4269983395,
+                    "Offset": 36,
+                    "Type": 0,
+                    "XFieldName": "JIADCPOFNNF",
+                    "FieldName": "startTick"
+                },
+                {
+                    "InternalIndex": 0,
+                    "Key": 1722252986,
+                    "NameHash": 2510717295,
+                    "Offset": 40,
+                    "Type": 0,
+                    "XFieldName": "CODDDKLCHJO",
+                    "FieldName": "endTick"
+                }
+            ],
+            "XClassName": "ICBIHOIPJHL",
+            "XParentName": "AEMGNFCLLIO",
+            "ClassName": "GameTimerRpc",
+            "ParentName": "InRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 917950423,
+            "Parameters": [
+                {
+                    "InternalIndex": 0,
+                    "Key": 671736122,
+                    "NameHash": 3918885563,
+                    "Offset": 32,
+                    "Type": 0,
+                    "XFieldName": "GLJDAMFMPOE",
+                    "FieldName": "index"
+                },
+                {
+                    "InternalIndex": 4,
+                    "Key": 2801449201,
+                    "NameHash": 3509789351,
+                    "Offset": 36,
+                    "Type": 0,
+                    "XFieldName": "AMCGIPGHELK",
+                    "FieldName": "killsTowardsNextGun"
+                },
+                {
+                    "InternalIndex": 1,
+                    "Key": 3264006431,
+                    "NameHash": 3285566074,
+                    "Offset": 40,
+                    "Type": 0,
+                    "XFieldName": "FMCBKDGHEAO",
+                    "FieldName": "killsRequiredForNextGun"
+                }
+            ],
+            "XClassName": "LGDDBNKOEOF",
+            "XParentName": "AEMGNFCLLIO",
+            "ClassName": "GunGameWeaponRpc",
+            "ParentName": "InRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 1279273299,
+            "Parameters": [
+                {
+                    "InternalIndex": 13,
+                    "Key": 2765998470,
+                    "NameHash": 4154752874,
+                    "Offset": 20,
+                    "Type": 0,
+                    "XFieldName": "GHJNOOCFCCI",
+                    "FieldName": "inputUid"
+                },
+                {
+                    "InternalIndex": 7,
+                    "Key": 3497609209,
+                    "NameHash": 2483443970,
+                    "Offset": 24,
+                    "Type": 0,
+                    "XFieldName": "MMBOFOOJPHK",
+                    "FieldName": "acknowledgedTickNumber"
+                },
+                {
+                    "InternalIndex": 16,
+                    "Key": 4214236464,
+                    "NameHash": 3512029774,
+                    "Offset": 28,
+                    "Type": 8,
+                    "XFieldName": "LECFEPIMIDJ",
+                    "FieldName": "isPing"
+                },
+                {
+                    "InternalIndex": 0,
+                    "Key": 899000321,
+                    "NameHash": 3616033783,
+                    "Offset": 36,
+                    "Type": 9,
+                    "XFieldName": "LKNNPEDKBOP",
+                    "FieldName": "left"
+                },
+                {
+                    "InternalIndex": 9,
+                    "Key": 2817053253,
+                    "NameHash": 2493426982,
+                    "Offset": 40,
+                    "Type": 9,
+                    "XFieldName": "CCNFPGKENMA",
+                    "FieldName": "right"
+                },
+                {
+                    "InternalIndex": 11,
+                    "Key": 2967931649,
+                    "NameHash": 2689470644,
+                    "Offset": 44,
+                    "Type": 9,
+                    "XFieldName": "HLLLDNDEHOJ",
+                    "FieldName": "down"
+                },
+                {
+                    "InternalIndex": 2,
+                    "Key": 3584106195,
+                    "NameHash": 1168416377,
+                    "Offset": 48,
+                    "Type": 9,
+                    "XFieldName": "FHFPKEKBPEM",
+                    "FieldName": "up"
+                },
+                {
+                    "InternalIndex": 22,
+                    "Key": 226635392,
+                    "NameHash": 2350566395,
+                    "Offset": 52,
+                    "Type": 9,
+                    "XFieldName": "FDFEIMDPLAH",
+                    "FieldName": "space"
+                },
+                {
+                    "InternalIndex": 4,
+                    "Key": 3140007493,
+                    "NameHash": 1957237356,
+                    "Offset": 56,
+                    "Type": 7,
+                    "XFieldName": "PMCJBBCGJJD",
+                    "FieldName": "moveDirection"
+                },
+                {
+                    "InternalIndex": 5,
+                    "Key": 1017049797,
+                    "NameHash": 2563884683,
+                    "Offset": 60,
+                    "Type": 9,
+                    "XFieldName": "AFOAOBFOPDN",
+                    "FieldName": "use"
+                },
+                {
+                    "InternalIndex": 23,
+                    "Key": 4210309059,
+                    "NameHash": 4080986976,
+                    "Offset": 64,
+                    "Type": 1,
+                    "XFieldName": "EGHAMMLDOKM",
+                    "FieldName": "worldX"
+                },
+                {
+                    "InternalIndex": 12,
+                    "Key": 669614477,
+                    "NameHash": 1512823531,
+                    "Offset": 68,
+                    "Type": 1,
+                    "XFieldName": "JDHHJOEIEBN",
+                    "FieldName": "worldY"
+                },
+                {
+                    "InternalIndex": 8,
+                    "Key": 3364947480,
+                    "NameHash": 2577449310,
+                    "Offset": 72,
+                    "Type": 0,
+                    "XFieldName": "DNODHFBAFOL",
+                    "FieldName": "distance"
+                },
+                {
+                    "InternalIndex": 3,
+                    "Key": 1845641218,
+                    "NameHash": 3700512485,
+                    "Offset": 76,
+                    "Type": 6,
+                    "XFieldName": "FHFNLFLALNO",
+                    "FieldName": "yaw"
+                },
+                {
+                    "InternalIndex": 19,
+                    "Key": 4008737874,
+                    "NameHash": 4237133294,
+                    "Offset": 80,
+                    "Type": 7,
+                    "XFieldName": "CJLLCABEHLK",
+                    "FieldName": "mouseDown"
+                },
+                {
+                    "InternalIndex": 15,
+                    "Key": 1888486256,
+                    "NameHash": 3123019540,
+                    "Offset": 84,
+                    "Type": 7,
+                    "XFieldName": "NIGFAMBKPFM",
+                    "FieldName": "mouseMovedWhileDown"
+                },
+                {
+                    "InternalIndex": 21,
+                    "Key": 157226082,
+                    "NameHash": 238438340,
+                    "Offset": 88,
+                    "Type": 7,
+                    "XFieldName": "EIHGGIBJLGL",
+                    "FieldName": "mouseMoved"
+                },
+                {
+                    "InternalIndex": 1,
+                    "Key": 3321505272,
+                    "NameHash": 2848955083,
+                    "Offset": 92,
+                    "Type": 9,
+                    "XFieldName": "PCFIDCOAIKL",
+                    "FieldName": "mouseUp"
+                },
+                {
+                    "InternalIndex": 6,
+                    "Key": 3707935808,
+                    "NameHash": 285425155,
+                    "Offset": 96,
+                    "Type": 2,
+                    "XFieldName": "MDADHBFMIND",
+                    "FieldName": "moveSpeed"
+                },
+                {
+                    "InternalIndex": 14,
+                    "Key": 2539150791,
+                    "NameHash": 2619490313,
+                    "Offset": 100,
+                    "Type": 8,
+                    "XFieldName": "IAPNKECGNOF",
+                    "FieldName": "rightMouseDown"
+                },
+                {
+                    "InternalIndex": 18,
+                    "Key": 736466785,
+                    "NameHash": 2472028183,
+                    "Offset": 104,
+                    "Type": 2,
+                    "XFieldName": "MMGIAPMKFBA",
+                    "FieldName": "zoomFactor"
+                },
+                {
+                    "InternalIndex": 10,
+                    "Key": 387168044,
+                    "NameHash": 172142038,
+                    "Offset": 108,
+                    "Type": 2,
+                    "XFieldName": "NENOLCEAMKD",
+                    "FieldName": "unknown"
+                }
+            ],
+            "XClassName": "ADMONNHBOOL",
+            "XParentName": "GLAFJMPKFHL",
+            "ClassName": "InputRpc",
+            "ParentName": "OutRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 236860049,
+            "Parameters": [
+                {
+                    "InternalIndex": 1,
+                    "Key": 4206545277,
+                    "NameHash": 1234915758,
+                    "Offset": 16,
+                    "Type": 0,
+                    "XFieldName": "FFANCHAGCPP",
+                    "FieldName": "buildingUid"
+                },
+                {
+                    "InternalIndex": 0,
+                    "Key": 3960312732,
+                    "NameHash": 4124788987,
+                    "Offset": 20,
+                    "Type": 0,
+                    "XFieldName": "KANBPAPJHGD",
+                    "FieldName": "doorIndex"
+                },
+                {
+                    "InternalIndex": 2,
+                    "Key": 3682084518,
+                    "NameHash": 810950379,
+                    "Offset": 24,
+                    "Type": 8,
+                    "XFieldName": "EKMMFNANGMB",
+                    "FieldName": "close"
+                }
+            ],
+            "XClassName": "LEGBDEOPJDI",
+            "XParentName": "GLAFJMPKFHL",
+            "ClassName": "InteractDoorRpc",
+            "ParentName": "OutRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 3798915305,
+            "Parameters": [
+                {
+                    "InternalIndex": 0,
+                    "Key": 2967575206,
+                    "NameHash": 3386654114,
+                    "Offset": 32,
+                    "Type": 0,
+                    "XFieldName": "IPOAHGFNLEK",
+                    "FieldName": "inventorySlot"
+                }
+            ],
+            "XClassName": "GIOPCFBDEKC",
+            "XParentName": "AEMGNFCLLIO",
+            "ClassName": "InventoryUpdateEquipRpc",
+            "ParentName": "InRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 550450712,
+            "Parameters": [
+                {
+                    "InternalIndex": 0,
+                    "Key": 1135891006,
+                    "NameHash": 2920653586,
+                    "Offset": 32,
+                    "Type": 0,
+                    "XFieldName": "IPOAHGFNLEK",
+                    "FieldName": "inventorySlot"
+                },
+                {
+                    "InternalIndex": 2,
+                    "Key": 668053384,
+                    "NameHash": 1012840415,
+                    "Offset": 36,
+                    "Type": 0,
+                    "XFieldName": "JDPLCOJAHBB",
+                    "FieldName": "categoryId"
+                },
+                {
+                    "InternalIndex": 5,
+                    "Key": 1249544800,
+                    "NameHash": 1202392001,
+                    "Offset": 40,
+                    "Type": 0,
+                    "XFieldName": "LFMMOMMFHPK",
+                    "FieldName": "dataIndex"
+                },
+                {
+                    "InternalIndex": 7,
+                    "Key": 1101404678,
+                    "NameHash": 3070583566,
+                    "Offset": 44,
+                    "Type": 0,
+                    "XFieldName": "FNFKAKMPPDE",
+                    "FieldName": "tier"
+                },
+                {
+                    "InternalIndex": 8,
+                    "Key": 2748765431,
+                    "NameHash": 2305858407,
+                    "Offset": 48,
+                    "Type": 0,
+                    "XFieldName": "KCNJCOEODGH",
+                    "FieldName": "stacks"
+                },
+                {
+                    "InternalIndex": 3,
+                    "Key": 1566999418,
+                    "NameHash": 2440078281,
+                    "Offset": 52,
+                    "Type": 0,
+                    "XFieldName": "FIOKPANFEGM",
+                    "FieldName": "skinId"
+                },
+                {
+                    "InternalIndex": 6,
+                    "Key": 2319607235,
+                    "NameHash": 803345897,
+                    "Offset": 56,
+                    "Type": 0,
+                    "XFieldName": "MKCMCHKHCNF",
+                    "FieldName": "modifierIndex"
+                }
+            ],
+            "XClassName": "AEBJAIPKGOM",
+            "XParentName": "AEMGNFCLLIO",
+            "ClassName": "InventoryUpdateRpc",
+            "ParentName": "InRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 1209364494,
+            "Parameters": [
+                {
+                    "InternalIndex": 1,
+                    "Key": null,
+                    "NameHash": 899937122,
+                    "Offset": 16,
+                    "Type": 3,
+                    "XFieldName": "IKAGNOKCEBN",
+                    "FieldName": "key"
+                },
+                {
+                    "InternalIndex": 0,
+                    "Key": 1139558335,
+                    "NameHash": 486042779,
+                    "Offset": 24,
+                    "Type": 0,
+                    "XFieldName": "AFEDILLGBMC",
+                    "FieldName": "players"
+                }
+            ],
+            "XClassName": "BFLLJMBHEJM",
+            "XParentName": "GLAFJMPKFHL",
+            "ClassName": "JoinTeamRpc",
+            "ParentName": "OutRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 3438950023,
+            "Parameters": [
+                {
+                    "InternalIndex": 2,
+                    "Key": null,
+                    "NameHash": 2639664710,
+                    "Offset": 32,
+                    "Type": 3,
+                    "XFieldName": "EGNGHNIMJDK",
+                    "FieldName": "killer"
+                },
+                {
+                    "InternalIndex": 6,
+                    "Key": 4210885466,
+                    "NameHash": 1249492956,
+                    "Offset": 40,
+                    "Type": 0,
+                    "XFieldName": "IBMGJDMECMF",
+                    "FieldName": "killerUid"
+                },
+                {
+                    "InternalIndex": 5,
+                    "Key": 1505496757,
+                    "NameHash": 1340508343,
+                    "Offset": 44,
+                    "Type": 0,
+                    "XFieldName": "AGCINKGIDKH",
+                    "FieldName": "killerColor"
+                },
+                {
+                    "InternalIndex": 9,
+                    "Key": null,
+                    "NameHash": 2618410018,
+                    "Offset": 48,
+                    "Type": 3,
+                    "XFieldName": "IILNBAADJPE",
+                    "FieldName": "victim"
+                },
+                {
+                    "InternalIndex": 8,
+                    "Key": 3615341442,
+                    "NameHash": 2941162151,
+                    "Offset": 56,
+                    "Type": 0,
+                    "XFieldName": "MCBIPJJLBCG",
+                    "FieldName": "victimUid"
+                },
+                {
+                    "InternalIndex": 4,
+                    "Key": 635064900,
+                    "NameHash": 399594466,
+                    "Offset": 60,
+                    "Type": 0,
+                    "XFieldName": "GLDEPGHHEMD",
+                    "FieldName": "victimColor"
+                },
+                {
+                    "InternalIndex": 3,
+                    "Key": 3197084430,
+                    "NameHash": 2320208249,
+                    "Offset": 64,
+                    "Type": 0,
+                    "XFieldName": "NOFBCBOMOGO",
+                    "FieldName": "category"
+                },
+                {
+                    "InternalIndex": 1,
+                    "Key": 3264440142,
+                    "NameHash": 1480574907,
+                    "Offset": 68,
+                    "Type": 0,
+                    "XFieldName": "JEFCAFEDJKH",
+                    "FieldName": "weaponIndex"
+                },
+                {
+                    "InternalIndex": 7,
+                    "Key": 1703825738,
+                    "NameHash": 3241178336,
+                    "Offset": 72,
+                    "Type": 8,
+                    "XFieldName": "GLGONELIBLD",
+                    "FieldName": "knockedDown"
+                },
+                {
+                    "InternalIndex": 11,
+                    "Key": 2986490239,
+                    "NameHash": 2105772623,
+                    "Offset": 76,
+                    "Type": 8,
+                    "XFieldName": "JCBCLMKKPIL",
+                    "FieldName": "isZombie"
+                }
+            ],
+            "XClassName": "MPMEHLCLDKH",
+            "XParentName": "AEMGNFCLLIO",
+            "ClassName": "KillFeedRpc",
+            "ParentName": "InRpc"
+        },
+        {
+            "IsArray": true,
+            "NameHash": 1205845841,
+            "Parameters": [
+                {
+                    "InternalIndex": 1,
+                    "Key": 1737894059,
+                    "NameHash": 342939638,
+                    "Offset": 32,
+                    "Type": 0,
+                    "XFieldName": "OFCIJBINEIB",
+                    "FieldName": "uid"
+                },
+                {
+                    "InternalIndex": 0,
+                    "Key": 2135482379,
+                    "NameHash": 3339295142,
+                    "Offset": 36,
+                    "Type": 0,
+                    "XFieldName": "KMMHAHDPJMB",
+                    "FieldName": "rank"
+                },
+                {
+                    "InternalIndex": 2,
+                    "Key": null,
+                    "NameHash": 2484027105,
+                    "Offset": 40,
+                    "Type": 3,
+                    "XFieldName": "NFIJLENBCCN",
+                    "FieldName": "playerName"
+                },
+                {
+                    "InternalIndex": 6,
+                    "Key": 1244528770,
+                    "NameHash": 3910525843,
+                    "Offset": 48,
+                    "Type": 0,
+                    "XFieldName": "EEKMCPHLGFO",
+                    "FieldName": "kills"
+                }
+            ],
+            "XClassName": "LFEAELKEMPI",
+            "XParentName": "AEMGNFCLLIO",
+            "ClassName": "LeaderboardRpc",
+            "ParentName": "InRpc"
+        },
+        {
+            "IsArray": true,
+            "NameHash": 1275885014,
+            "Parameters": [
+                {
+                    "InternalIndex": 0,
+                    "Key": 2274246642,
+                    "NameHash": 523522141,
+                    "Offset": 32,
+                    "Type": 0,
+                    "XFieldName": "GLJDAMFMPOE",
+                    "FieldName": "index"
+                },
+                {
+                    "InternalIndex": 3,
+                    "Key": 2623554611,
+                    "NameHash": 4229275808,
+                    "Offset": 36,
+                    "Type": 0,
+                    "XFieldName": "DBLIIMNEDAM",
+                    "FieldName": "count"
+                },
+                {
+                    "InternalIndex": 1,
+                    "Key": 3251432988,
+                    "NameHash": 4269065568,
+                    "Offset": 40,
+                    "Type": 0,
+                    "XFieldName": "OJIOPCBOJGP",
+                    "FieldName": "limit"
+                }
+            ],
+            "XClassName": "AABGAKBNBME",
+            "XParentName": "AEMGNFCLLIO",
+            "ClassName": "LoadoutUserRpc",
+            "ParentName": "InRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 4132955258,
+            "Parameters": [
+                {
+                    "InternalIndex": 2,
+                    "Key": null,
+                    "NameHash": 48478410,
+                    "Offset": 32,
+                    "Type": 3,
+                    "XFieldName": "DCBENGGCEKA",
+                    "FieldName": "json"
+                }
+            ],
+            "XClassName": "KIDCJOFBLJC",
+            "XParentName": "AEMGNFCLLIO",
+            "ClassName": "LoginResponseRpc",
+            "ParentName": "InRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 1663189022,
+            "Parameters": [
+                {
+                    "InternalIndex": 0,
+                    "Key": null,
+                    "NameHash": 1093262277,
+                    "Offset": 16,
+                    "Type": 3,
+                    "XFieldName": "BGDLMJLHEBE",
+                    "FieldName": "token"
+                }
+            ],
+            "XClassName": "OIBAODPNDLI",
+            "XParentName": "GLAFJMPKFHL",
+            "ClassName": "LoginRpc",
+            "ParentName": "OutRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 58654242,
+            "Parameters": [],
+            "XClassName": "CDFAAKBGBCL",
+            "XParentName": "AEMGNFCLLIO",
+            "ClassName": "LootCategoryOverrideRpc",
+            "ParentName": "InRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 3900369865,
+            "Parameters": [
+                {
+                    "InternalIndex": 0,
+                    "Key": 3158803439,
+                    "NameHash": 3362872333,
+                    "Offset": 16,
+                    "Type": 0,
+                    "XFieldName": "DJBMEAJFOCI",
+                    "FieldName": "chestUid"
+                }
+            ],
+            "XClassName": "ILBCMJEBPIO",
+            "XParentName": "GLAFJMPKFHL",
+            "ClassName": "LootChestRpc",
+            "ParentName": "OutRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 3466690895,
+            "Parameters": [
+                {
+                    "InternalIndex": 23,
+                    "Key": 3927644527,
+                    "NameHash": 1909990882,
+                    "Offset": 16,
+                    "Type": 2,
+                    "XFieldName": "FKFKHPGNCLA",
+                    "FieldName": "minFps"
+                },
+                {
+                    "InternalIndex": 29,
+                    "Key": 705500321,
+                    "NameHash": 3229775599,
+                    "Offset": 20,
+                    "Type": 2,
+                    "XFieldName": "JCHBJNFMAMO",
+                    "FieldName": "maxFps"
+                },
+                {
+                    "InternalIndex": 31,
+                    "Key": 1412763721,
+                    "NameHash": 856184794,
+                    "Offset": 24,
+                    "Type": 2,
+                    "XFieldName": "PJBLPIIEMNM",
+                    "FieldName": "averageFps"
+                },
+                {
+                    "InternalIndex": 13,
+                    "Key": 1013145481,
+                    "NameHash": 766688541,
+                    "Offset": 28,
+                    "Type": 2,
+                    "XFieldName": "OIJEHLJHBHD",
+                    "FieldName": "currentFps"
+                },
+                {
+                    "InternalIndex": 10,
+                    "Key": 3900263341,
+                    "NameHash": 846328238,
+                    "Offset": 32,
+                    "Type": 2,
+                    "XFieldName": "EKMDJEKMNNG",
+                    "FieldName": "framesRendered"
+                },
+                {
+                    "InternalIndex": 16,
+                    "Key": 768208486,
+                    "NameHash": 1885220400,
+                    "Offset": 36,
+                    "Type": 2,
+                    "XFieldName": "DJOLJHLJOMP",
+                    "FieldName": "framesInterpolated"
+                },
+                {
+                    "InternalIndex": 20,
+                    "Key": 3294075892,
+                    "NameHash": 3296960638,
+                    "Offset": 40,
+                    "Type": 2,
+                    "XFieldName": "HOJHBDKEGHH",
+                    "FieldName": "framesExtrapolated"
+                },
+                {
+                    "InternalIndex": 21,
+                    "Key": 1594100428,
+                    "NameHash": 130979110,
+                    "Offset": 44,
+                    "Type": 2,
+                    "XFieldName": "GLEAHNHDGPM",
+                    "FieldName": "allocatedNetworkEntities"
+                },
+                {
+                    "InternalIndex": 18,
+                    "Key": 3117526278,
+                    "NameHash": 3492649844,
+                    "Offset": 48,
+                    "Type": 2,
+                    "XFieldName": "FLNBNGGLCIF",
+                    "FieldName": "currentClientLag"
+                },
+                {
+                    "InternalIndex": 28,
+                    "Key": 4035809782,
+                    "NameHash": 1336675418,
+                    "Offset": 52,
+                    "Type": 2,
+                    "XFieldName": "CCALJBAKLAO",
+                    "FieldName": "minClientLag"
+                },
+                {
+                    "InternalIndex": 3,
+                    "Key": 3069109324,
+                    "NameHash": 2934580624,
+                    "Offset": 56,
+                    "Type": 2,
+                    "XFieldName": "DGOBONCKOMJ",
+                    "FieldName": "maxClientLag"
+                },
+                {
+                    "InternalIndex": 26,
+                    "Key": 4190604642,
+                    "NameHash": 3297005025,
+                    "Offset": 60,
+                    "Type": 2,
+                    "XFieldName": "EHKMNFIDADC",
+                    "FieldName": "currentPing"
+                },
+                {
+                    "InternalIndex": 32,
+                    "Key": 1273933673,
+                    "NameHash": 2891183017,
+                    "Offset": 64,
+                    "Type": 2,
+                    "XFieldName": "DNIBKFNIECH",
+                    "FieldName": "minPing"
+                },
+                {
+                    "InternalIndex": 14,
+                    "Key": 1366336742,
+                    "NameHash": 1726718247,
+                    "Offset": 70,
+                    "Type": 2,
+                    "XFieldName": "BGHLDDGKCGF",
+                    "FieldName": "maxPing"
+                },
+                {
+                    "InternalIndex": 12,
+                    "Key": 723615187,
+                    "NameHash": 3153958992,
+                    "Offset": 72,
+                    "Type": 2,
+                    "XFieldName": "CEJENJFMECN",
+                    "FieldName": "averagePing"
+                },
+                {
+                    "InternalIndex": 17,
+                    "Key": 3859996814,
+                    "NameHash": 3884470249,
+                    "Offset": 76,
+                    "Type": 2,
+                    "XFieldName": "GNHEEPLEPCG",
+                    "FieldName": "longFrames"
+                },
+                {
+                    "InternalIndex": 27,
+                    "Key": 2273678715,
+                    "NameHash": 3682111245,
+                    "Offset": 80,
+                    "Type": 2,
+                    "XFieldName": "FOGOEJIDNPB",
+                    "FieldName": "stutters"
+                },
+                {
+                    "InternalIndex": 19,
+                    "Key": 2676023406,
+                    "NameHash": 2023062043,
+                    "Offset": 84,
+                    "Type": 2,
+                    "XFieldName": "ENNJBHBDECK",
+                    "FieldName": "timeResets"
+                },
+                {
+                    "InternalIndex": 1,
+                    "Key": 1871165520,
+                    "NameHash": 2001034807,
+                    "Offset": 88,
+                    "Type": 2,
+                    "XFieldName": "CDBDFLNIOPJ",
+                    "FieldName": "maxExtrapolationTime"
+                },
+                {
+                    "InternalIndex": 6,
+                    "Key": 1370321580,
+                    "NameHash": 1640963746,
+                    "Offset": 92,
+                    "Type": 2,
+                    "XFieldName": "JCICHPCMLKB",
+                    "FieldName": "extrapolationIncidents"
+                },
+                {
+                    "InternalIndex": 9,
+                    "Key": 3333177161,
+                    "NameHash": 2468784168,
+                    "Offset": 96,
+                    "Type": 2,
+                    "XFieldName": "ACIAFNOHCLA",
+                    "FieldName": "totalExtrapolationTime"
+                },
+                {
+                    "InternalIndex": 0,
+                    "Key": 182115602,
+                    "NameHash": 2435796265,
+                    "Offset": 100,
+                    "Type": 2,
+                    "XFieldName": "GHHFMLOILIP",
+                    "FieldName": "differenceInClientTime"
+                },
+                {
+                    "InternalIndex": 2,
+                    "Key": 2151624582,
+                    "NameHash": 2227742777,
+                    "Offset": 104,
+                    "Type": 2,
+                    "XFieldName": "AOGHILEKPPF",
+                    "FieldName": "currentTickSize"
+                },
+                {
+                    "InternalIndex": 15,
+                    "Key": 120357440,
+                    "NameHash": 2507461781,
+                    "Offset": 108,
+                    "Type": 2,
+                    "XFieldName": "PPABCOFFGAP",
+                    "FieldName": "maxTickSize"
+                },
+                {
+                    "InternalIndex": 7,
+                    "Key": 3835667668,
+                    "NameHash": 4269668760,
+                    "Offset": 112,
+                    "Type": 2,
+                    "XFieldName": "MBDFDOPMPMN",
+                    "FieldName": "averageTickSize"
+                },
+                {
+                    "InternalIndex": 8,
+                    "Key": 1387085684,
+                    "NameHash": 919455079,
+                    "Offset": 116,
+                    "Type": 2,
+                    "XFieldName": "LGNOHCDNAJO",
+                    "FieldName": "packetLossPercent"
+                },
+                {
+                    "InternalIndex": 11,
+                    "Key": 2498600639,
+                    "NameHash": 2459997054,
+                    "Offset": 120,
+                    "Type": 0,
+                    "XFieldName": "ODLDGFFMJGA",
+                    "FieldName": "pingRequestSentTick"
+                },
+                {
+                    "InternalIndex": 5,
+                    "Key": 4013758679,
+                    "NameHash": 1937419523,
+                    "Offset": 124,
+                    "Type": 0,
+                    "XFieldName": "FJHDICOJCLE",
+                    "FieldName": "pingResponseSentTick"
+                },
+                {
+                    "InternalIndex": 30,
+                    "Key": 528478841,
+                    "NameHash": 1953682218,
+                    "Offset": 128,
+                    "Type": 0,
+                    "XFieldName": "CFPHNLMPAIN",
+                    "FieldName": "pingResponseReceivedTick"
+                },
+                {
+                    "InternalIndex": 25,
+                    "Key": 484986274,
+                    "NameHash": 2998617688,
+                    "Offset": 132,
+                    "Type": 0,
+                    "XFieldName": "FAIKHMIKPDE",
+                    "FieldName": "usingUdp"
+                },
+                {
+                    "InternalIndex": 22,
+                    "Key": 2212698027,
+                    "NameHash": 4095502099,
+                    "Offset": 136,
+                    "Type": 0,
+                    "XFieldName": "APMBIFGCCHF",
+                    "FieldName": "group"
+                },
+                {
+                    "InternalIndex": 24,
+                    "Key": 3383643809,
+                    "NameHash": 866854721,
+                    "Offset": 140,
+                    "Type": 0,
+                    "XFieldName": "GIANLHLNPEA",
+                    "FieldName": "stage"
+                },
+                {
+                    "InternalIndex": 4,
+                    "Key": 3738069655,
+                    "NameHash": 1372044883,
+                    "Offset": 144,
+                    "Type": 0,
+                    "XFieldName": "PLGGJEDLKOD",
+                    "FieldName": "isMobile"
+                }
+            ],
+            "XClassName": "GIHCBLNMIDL",
+            "XParentName": "GLAFJMPKFHL",
+            "ClassName": "MetricsRpc",
+            "ParentName": "OutRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 1205767687,
+            "Parameters": [
+                {
+                    "InternalIndex": 0,
+                    "Key": 1425984633,
+                    "NameHash": 1968084988,
+                    "Offset": 32,
+                    "Type": 8,
+                    "XFieldName": "JFMKILOECPI",
+                    "FieldName": "isObserver"
+                }
+            ],
+            "XClassName": "DJBKBJJMPOB",
+            "XParentName": "AEMGNFCLLIO",
+            "ClassName": "ObserverRpc",
+            "ParentName": "InRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 1294706463,
+            "Parameters": [],
+            "XClassName": "MFLHBOBAKOE",
+            "XParentName": "GLAFJMPKFHL",
+            "ClassName": "ParachuteRpc",
+            "ParentName": "OutRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 2056881576,
+            "Parameters": [],
+            "XClassName": "CHENCPEHLOH",
+            "XParentName": "AEMGNFCLLIO",
+            "ClassName": "PartyLeftRpc",
+            "ParentName": "InRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 1126789756,
+            "Parameters": [
+                {
+                    "InternalIndex": 2,
+                    "Key": 2196267728,
+                    "NameHash": 1049539056,
+                    "Offset": 32,
+                    "Type": 8,
+                    "XFieldName": "HABHDFAODPP",
+                    "FieldName": "joined"
+                },
+                {
+                    "InternalIndex": 5,
+                    "Key": 446402548,
+                    "NameHash": 3324543344,
+                    "Offset": 36,
+                    "Type": 0,
+                    "XFieldName": "OFCIJBINEIB",
+                    "FieldName": "uid"
+                },
+                {
+                    "InternalIndex": 1,
+                    "Key": null,
+                    "NameHash": 57938121,
+                    "Offset": 40,
+                    "Type": 3,
+                    "XFieldName": "NFIJLENBCCN",
+                    "FieldName": "playerName"
+                },
+                {
+                    "InternalIndex": 4,
+                    "Key": null,
+                    "NameHash": 2620050044,
+                    "Offset": 48,
+                    "Type": 3,
+                    "XFieldName": "AHBGCHAAMJJ",
+                    "FieldName": "friendCode"
+                }
+            ],
+            "XClassName": "HNGMNBIGALM",
+            "XParentName": "AEMGNFCLLIO",
+            "ClassName": "PartyUpdateRpc",
+            "ParentName": "InRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 3231197789,
+            "Parameters": [
+                {
+                    "InternalIndex": 1,
+                    "Key": 315729042,
+                    "NameHash": 3743607669,
+                    "Offset": 16,
+                    "Type": 0,
+                    "XFieldName": "CIMPEFJOOEB",
+                    "FieldName": "itemUid"
+                },
+                {
+                    "InternalIndex": 0,
+                    "Key": 3729053937,
+                    "NameHash": 175743344,
+                    "Offset": 20,
+                    "Type": 0,
+                    "XFieldName": "IPOAHGFNLEK",
+                    "FieldName": "inventorySlot"
+                }
+            ],
+            "XClassName": "IIBDJMKEGDH",
+            "XParentName": "GLAFJMPKFHL",
+            "ClassName": "PickupItemRpc",
+            "ParentName": "OutRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 3068105429,
+            "Parameters": [
+                {
+                    "InternalIndex": 2,
+                    "Key": 1549606167,
+                    "NameHash": 437253407,
+                    "Offset": 32,
+                    "Type": 0,
+                    "XFieldName": "JNOAOILNDEN",
+                    "FieldName": "reason"
+                }
+            ],
+            "XClassName": "OHBCJHPBBMO",
+            "XParentName": "AEMGNFCLLIO",
+            "ClassName": "PlaceBuildingFailedRpc",
+            "ParentName": "InRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 2348061465,
+            "Parameters": [
+                {
+                    "InternalIndex": 1,
+                    "Key": 3415311558,
+                    "NameHash": 3741229935,
+                    "Offset": 16,
+                    "Type": 0,
+                    "XFieldName": "LFMMOMMFHPK",
+                    "FieldName": "dataIndex"
+                },
+                {
+                    "InternalIndex": 0,
+                    "Key": 2318198285,
+                    "NameHash": 551425438,
+                    "Offset": 20,
+                    "Type": 0,
+                    "XFieldName": "PKCOHLMCGNI",
+                    "FieldName": "x"
+                },
+                {
+                    "InternalIndex": 2,
+                    "Key": 1124753697,
+                    "NameHash": 3374768749,
+                    "Offset": 24,
+                    "Type": 0,
+                    "XFieldName": "ACJKGAAOHGA",
+                    "FieldName": "y"
+                }
+            ],
+            "XClassName": "HAGPMAFHIBL",
+            "XParentName": "GLAFJMPKFHL",
+            "ClassName": "PlaceBuildingRpc",
+            "ParentName": "OutRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 567482547,
+            "Parameters": [
+                {
+                    "InternalIndex": 1,
+                    "Key": 768406423,
+                    "NameHash": 559861323,
+                    "Offset": 32,
+                    "Type": 2,
+                    "XFieldName": "PKCOHLMCGNI",
+                    "FieldName": "x"
+                },
+                {
+                    "InternalIndex": 4,
+                    "Key": 176862861,
+                    "NameHash": 820486823,
+                    "Offset": 36,
+                    "Type": 2,
+                    "XFieldName": "ACJKGAAOHGA",
+                    "FieldName": "y"
+                },
+                {
+                    "InternalIndex": 2,
+                    "Key": 398313496,
+                    "NameHash": 2365320079,
+                    "Offset": 42,
+                    "Type": 2,
+                    "XFieldName": "FHFNLFLALNO",
+                    "FieldName": "yaw"
+                }
+            ],
+            "XClassName": "OIBEGCKIJCD",
+            "XParentName": "AEMGNFCLLIO",
+            "ClassName": "PlanePathRpc",
+            "ParentName": "InRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 1149634181,
+            "Parameters": [
+                {
+                    "InternalIndex": 0,
+                    "Key": 3244570284,
+                    "NameHash": 2122575219,
+                    "Offset": 32,
+                    "Type": 0,
+                    "XFieldName": "FPOOCKEEDFE",
+                    "FieldName": "playersAlive"
+                },
+                {
+                    "InternalIndex": 1,
+                    "Key": 1048699275,
+                    "NameHash": 4218133519,
+                    "Offset": 36,
+                    "Type": 0,
+                    "XFieldName": "PMJOALOADOE",
+                    "FieldName": "totalPlayers"
+                },
+                {
+                    "InternalIndex": 6,
+                    "Key": 562390733,
+                    "NameHash": 2688341315,
+                    "Offset": 40,
+                    "Type": 0,
+                    "XFieldName": "KPKAAHMLGEL",
+                    "FieldName": "partiesAlive"
+                },
+                {
+                    "InternalIndex": 2,
+                    "Key": 201554081,
+                    "NameHash": 3189732091,
+                    "Offset": 44,
+                    "Type": 0,
+                    "XFieldName": "JDPIKNKABHA",
+                    "FieldName": "totalParties"
+                },
+                {
+                    "InternalIndex": 3,
+                    "Key": 3083940593,
+                    "NameHash": 2439368232,
+                    "Offset": 48,
+                    "Type": 0,
+                    "XFieldName": "PNBJPDLPALK",
+                    "FieldName": "team1Alive"
+                },
+                {
+                    "InternalIndex": 4,
+                    "Key": 2263568865,
+                    "NameHash": 3382241586,
+                    "Offset": 52,
+                    "Type": 0,
+                    "XFieldName": "GLLOFPAFEJJ",
+                    "FieldName": "team2Alive"
+                }
+            ],
+            "XClassName": "BEABBFHCKFG",
+            "XParentName": "AEMGNFCLLIO",
+            "ClassName": "PlayerCountRpc",
+            "ParentName": "InRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 3864224192,
+            "Parameters": [
+                {
+                    "InternalIndex": 3,
+                    "Key": null,
+                    "NameHash": 1523232273,
+                    "Offset": 32,
+                    "Type": 3,
+                    "XFieldName": "NIHLDPABJKD",
+                    "FieldName": "displayName"
+                },
+                {
+                    "InternalIndex": 2,
+                    "Key": null,
+                    "NameHash": 3765541136,
+                    "Offset": 40,
+                    "Type": 3,
+                    "XFieldName": "LFKGDCELOCD",
+                    "FieldName": "channel"
+                },
+                {
+                    "InternalIndex": 1,
+                    "Key": null,
+                    "NameHash": 304964707,
+                    "Offset": 48,
+                    "Type": 3,
+                    "XFieldName": "OOPMIHFDHHH",
+                    "FieldName": "message"
+                },
+                {
+                    "InternalIndex": 5,
+                    "Key": 4132157072,
+                    "NameHash": 1509167635,
+                    "Offset": 56,
+                    "Type": 0,
+                    "XFieldName": "OFCIJBINEIB",
+                    "FieldName": "uid"
+                }
+            ],
+            "XClassName": "DAIFELDBILK",
+            "XParentName": "AEMGNFCLLIO",
+            "ClassName": "ReceiveChatMessageRpc",
+            "ParentName": "InRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 2411124776,
+            "Parameters": [],
+            "XClassName": "HGBIDKCIEBD",
+            "XParentName": "GLAFJMPKFHL",
+            "ClassName": "ReloadRpc",
+            "ParentName": "OutRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 341312471,
+            "Parameters": [],
+            "XClassName": "PINMBLKAILH",
+            "XParentName": "GLAFJMPKFHL",
+            "ClassName": "ReloadServerRpc",
+            "ParentName": "OutRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 128049993,
+            "Parameters": [],
+            "XClassName": "GIJNICKIKFI",
+            "XParentName": "AEMGNFCLLIO",
+            "ClassName": "ResetGameRpc",
+            "ParentName": "InRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 2826203915,
+            "Parameters": [],
+            "XClassName": "PHMHMOMOJDL",
+            "XParentName": "GLAFJMPKFHL",
+            "ClassName": "RespawnPendingRpc",
+            "ParentName": "OutRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 1437319686,
+            "Parameters": [
+                {
+                    "InternalIndex": 0,
+                    "Key": 4230613616,
+                    "NameHash": 3827614689,
+                    "Offset": 16,
+                    "Type": 8,
+                    "XFieldName": "HDEFIHONPND",
+                    "FieldName": "respawnWithHalf"
+                }
+            ],
+            "XClassName": "ABADPBJFDIJ",
+            "XParentName": "GLAFJMPKFHL",
+            "ClassName": "RespawnRpc",
+            "ParentName": "OutRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 757707150,
+            "Parameters": [
+                {
+                    "InternalIndex": 1,
+                    "Key": null,
+                    "NameHash": 3477419714,
+                    "Offset": 16,
+                    "Type": 3,
+                    "XFieldName": "LFKGDCELOCD",
+                    "FieldName": "channel"
+                },
+                {
+                    "InternalIndex": 0,
+                    "Key": null,
+                    "NameHash": 1191140501,
+                    "Offset": 24,
+                    "Type": 3,
+                    "XFieldName": "OOPMIHFDHHH",
+                    "FieldName": "message"
+                }
+            ],
+            "XClassName": "EDEJJFNLPHG",
+            "XParentName": "GLAFJMPKFHL",
+            "ClassName": "SendChatMessageRpc",
+            "ParentName": "OutRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 998162888,
+            "Parameters": [
+                {
+                    "InternalIndex": 0,
+                    "Key": 1370029178,
+                    "NameHash": 3356925784,
+                    "Offset": 16,
+                    "Type": 8,
+                    "XFieldName": "DLNCFGAHLDI",
+                    "FieldName": "isBuilding"
+                }
+            ],
+            "XClassName": "FPOIDKFBCOO",
+            "XParentName": "GLAFJMPKFHL",
+            "ClassName": "SetBuildingModeRpc",
+            "ParentName": "OutRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 3363231918,
+            "Parameters": [
+                {
+                    "InternalIndex": 0,
+                    "Key": 1689252382,
+                    "NameHash": 2016621305,
+                    "Offset": 32,
+                    "Type": 0,
+                    "XFieldName": "GLJDAMFMPOE",
+                    "FieldName": "index"
+                }
+            ],
+            "XClassName": "CNAAKHBENDK",
+            "XParentName": "AEMGNFCLLIO",
+            "ClassName": "SetClientLoadoutRpc",
+            "ParentName": "InRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 57303470,
+            "Parameters": [
+                {
+                    "InternalIndex": 0,
+                    "Key": 4076517306,
+                    "NameHash": 878112293,
+                    "Offset": 20,
+                    "Type": 0,
+                    "XFieldName": "MLFFMIBEFPB",
+                    "FieldName": "emote2"
+                }
+            ],
+            "XClassName": "KNKHDKBGIFI",
+            "XParentName": "GLAFJMPKFHL",
+            "ClassName": "SetEmoteRpc",
+            "ParentName": "OutRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 566794821,
+            "Parameters": [
+                {
+                    "InternalIndex": 0,
+                    "Key": 1603817581,
+                    "NameHash": 2981345245,
+                    "Offset": 16,
+                    "Type": 0,
+                    "XFieldName": "GLJDAMFMPOE",
+                    "FieldName": "index"
+                }
+            ],
+            "XClassName": "DPJCDEIAEDL",
+            "XParentName": "GLAFJMPKFHL",
+            "ClassName": "SetLoadoutRpc",
+            "ParentName": "OutRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 4047983676,
+            "Parameters": [
+                {
+                    "InternalIndex": 2,
+                    "Key": 2404806863,
+                    "NameHash": 3021519720,
+                    "Offset": 16,
+                    "Type": 2,
+                    "XFieldName": "PKCOHLMCGNI",
+                    "FieldName": "x"
+                },
+                {
+                    "InternalIndex": 0,
+                    "Key": 2671831305,
+                    "NameHash": 3445492756,
+                    "Offset": 20,
+                    "Type": 2,
+                    "XFieldName": "ACJKGAAOHGA",
+                    "FieldName": "y"
+                },
+                {
+                    "InternalIndex": 1,
+                    "Key": 919541397,
+                    "NameHash": 1467732500,
+                    "Offset": 24,
+                    "Type": 8,
+                    "XFieldName": "MDPDNEDJAHC",
+                    "FieldName": "valid"
+                }
+            ],
+            "XClassName": "AFADNHKDMMF",
+            "XParentName": "GLAFJMPKFHL",
+            "ClassName": "SetMarkerRpc",
+            "ParentName": "OutRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 1133943690,
+            "Parameters": [
+                {
+                    "InternalIndex": 0,
+                    "Key": 1217180868,
+                    "NameHash": 1745805428,
+                    "Offset": 16,
+                    "Type": 0,
+                    "XFieldName": "PJHADKFANIM",
+                    "FieldName": "party"
+                }
+            ],
+            "XClassName": "LAKFCEADDMK",
+            "XParentName": "GLAFJMPKFHL",
+            "ClassName": "SetPartyColorRpc",
+            "ParentName": "OutRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 4214424017,
+            "Parameters": [
+                {
+                    "InternalIndex": 0,
+                    "Key": null,
+                    "NameHash": 874444795,
+                    "Offset": 16,
+                    "Type": 3,
+                    "XFieldName": "BCCPOJNHPJG",
+                    "FieldName": "platform"
+                }
+            ],
+            "XClassName": "CKKNBIOOKHI",
+            "XParentName": "GLAFJMPKFHL",
+            "ClassName": "SetPlatformRpc",
+            "ParentName": "OutRpc"
+        },
+        {
+            "IsArray": true,
+            "NameHash": 91774870,
+            "Parameters": [
+                {
+                    "InternalIndex": 0,
+                    "Key": 1505304638,
+                    "NameHash": 3047682940,
+                    "Offset": 16,
+                    "Type": 0,
+                    "XFieldName": "OBEHCMJJBLE",
+                    "FieldName": "slot"
+                },
+                {
+                    "InternalIndex": 1,
+                    "Key": 2780358535,
+                    "NameHash": 3675140081,
+                    "Offset": 20,
+                    "Type": 0,
+                    "XFieldName": "CIJBDALCHFH",
+                    "FieldName": "subSlot"
+                },
+                {
+                    "InternalIndex": 2,
+                    "Key": 3898301226,
+                    "NameHash": 3510281076,
+                    "Offset": 24,
+                    "Type": 0,
+                    "XFieldName": "FIOKPANFEGM",
+                    "FieldName": "skinId"
+                }
+            ],
+            "XClassName": "CPDKDMADMBH",
+            "XParentName": "GLAFJMPKFHL",
+            "ClassName": "SetSkinRpc",
+            "ParentName": "OutRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 3091991714,
+            "Parameters": [
+                {
+                    "InternalIndex": 2,
+                    "Key": 575801094,
+                    "NameHash": 3688871909,
+                    "Offset": 32,
+                    "Type": 0,
+                    "XFieldName": "HJNMDBGPPED",
+                    "FieldName": "shutdownUnix"
+                },
+                {
+                    "InternalIndex": 1,
+                    "Key": null,
+                    "NameHash": 1304629061,
+                    "Offset": 40,
+                    "Type": 3,
+                    "XFieldName": "JNOAOILNDEN",
+                    "FieldName": "reason"
+                }
+            ],
+            "XClassName": "GPDLHCGOBMF",
+            "XParentName": "AEMGNFCLLIO",
+            "ClassName": "ShutdownRpc",
+            "ParentName": "InRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 3526388084,
+            "Parameters": [
+                {
+                    "InternalIndex": 0,
+                    "Key": 2954651486,
+                    "NameHash": 4104206012,
+                    "Offset": 16,
+                    "Type": 0,
+                    "XFieldName": "OFCIJBINEIB",
+                    "FieldName": "uid"
+                }
+            ],
+            "XClassName": "HJMGFMOPKAN",
+            "XParentName": "GLAFJMPKFHL",
+            "ClassName": "SpectateRpc",
+            "ParentName": "OutRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 4170532423,
+            "Parameters": [
+                {
+                    "InternalIndex": 0,
+                    "Key": 1044060409,
+                    "NameHash": 3305865978,
+                    "Offset": 20,
+                    "Type": 0,
+                    "XFieldName": "HAOKHGCHLGE",
+                    "FieldName": "sprayIndex2"
+                },
+                {
+                    "InternalIndex": 3,
+                    "Key": 520221205,
+                    "NameHash": 662725717,
+                    "Offset": 24,
+                    "Type": 2,
+                    "XFieldName": "PKCOHLMCGNI",
+                    "FieldName": "x"
+                },
+                {
+                    "InternalIndex": 1,
+                    "Key": 1269765439,
+                    "NameHash": 1036313048,
+                    "Offset": 28,
+                    "Type": 2,
+                    "XFieldName": "ACJKGAAOHGA",
+                    "FieldName": "y"
+                }
+            ],
+            "XClassName": "EDMEHDBGMLD",
+            "XParentName": "GLAFJMPKFHL",
+            "ClassName": "SprayRpc",
+            "ParentName": "OutRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 2024063415,
+            "Parameters": [],
+            "XClassName": "AHDBHAHILMA",
+            "XParentName": "GLAFJMPKFHL",
+            "ClassName": "StartCircleRpc",
+            "ParentName": "OutRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 409738793,
+            "Parameters": [],
+            "XClassName": "OHJFIJJKBIP",
+            "XParentName": "GLAFJMPKFHL",
+            "ClassName": "StartLobbyRpc",
+            "ParentName": "OutRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 1338640838,
+            "Parameters": [
+                {
+                    "InternalIndex": 0,
+                    "Key": 2540678111,
+                    "NameHash": 1621881620,
+                    "Offset": 16,
+                    "Type": 0,
+                    "XFieldName": "OFCIJBINEIB",
+                    "FieldName": "uid"
+                }
+            ],
+            "XClassName": "CKACOOFDDOH",
+            "XParentName": "GLAFJMPKFHL",
+            "ClassName": "StartReviveRpc",
+            "ParentName": "OutRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 2639152865,
+            "Parameters": [
+                {
+                    "InternalIndex": 1,
+                    "Key": 1156190712,
+                    "NameHash": 1773713729,
+                    "Offset": 16,
+                    "Type": 8,
+                    "XFieldName": "DNNOEPJEGAB",
+                    "FieldName": "attemptedUdp"
+                },
+                {
+                    "InternalIndex": 0,
+                    "Key": 2941787581,
+                    "NameHash": 3013536807,
+                    "Offset": 20,
+                    "Type": 8,
+                    "XFieldName": "EGCKENBPOOG",
+                    "FieldName": "received500"
+                }
+            ],
+            "XClassName": "MHGCLHJFEFL",
+            "XParentName": "GLAFJMPKFHL",
+            "ClassName": "StartTcpStreamRpc",
+            "ParentName": "OutRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 12088580,
+            "Parameters": [],
+            "XClassName": "JMCLKCLPAOI",
+            "XParentName": "GLAFJMPKFHL",
+            "ClassName": "StartUdpStreamRpc",
+            "ParentName": "OutRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 1204880433,
+            "Parameters": [
+                {
+                    "InternalIndex": 1,
+                    "Key": 2458923693,
+                    "NameHash": 475083820,
+                    "Offset": 16,
+                    "Type": 0,
+                    "XFieldName": "IANNMBKOLEN",
+                    "FieldName": "inventorySlot1"
+                },
+                {
+                    "InternalIndex": 0,
+                    "Key": 656892432,
+                    "NameHash": 3001023777,
+                    "Offset": 20,
+                    "Type": 0,
+                    "XFieldName": "FJNEGEIJCJP",
+                    "FieldName": "inventorySlot2"
+                }
+            ],
+            "XClassName": "OMJFPPOMPAI",
+            "XParentName": "GLAFJMPKFHL",
+            "ClassName": "SwapItemRpc",
+            "ParentName": "OutRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 4212675720,
+            "Parameters": [
+                {
+                    "InternalIndex": 3,
+                    "Key": 3637658181,
+                    "NameHash": 2611607957,
+                    "Offset": 32,
+                    "Type": 2,
+                    "XFieldName": "PKCOHLMCGNI",
+                    "FieldName": "x"
+                },
+                {
+                    "InternalIndex": 5,
+                    "Key": 2482476162,
+                    "NameHash": 3385293846,
+                    "Offset": 38,
+                    "Type": 2,
+                    "XFieldName": "ACJKGAAOHGA",
+                    "FieldName": "y"
+                },
+                {
+                    "InternalIndex": 2,
+                    "Key": 3681832121,
+                    "NameHash": 451453129,
+                    "Offset": 40,
+                    "Type": 0,
+                    "XFieldName": "OFCIJBINEIB",
+                    "FieldName": "uid"
+                },
+                {
+                    "InternalIndex": 4,
+                    "Key": 3746807541,
+                    "NameHash": 2892827860,
+                    "Offset": 44,
+                    "Type": 8,
+                    "XFieldName": "MDPDNEDJAHC",
+                    "FieldName": "valid"
+                }
+            ],
+            "XClassName": "OLCMNEPHLGG",
+            "XParentName": "AEMGNFCLLIO",
+            "ClassName": "UpdateMarkerRpc",
+            "ParentName": "InRpc"
+        }
+    ]
+}

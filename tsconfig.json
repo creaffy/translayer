@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "module": "NodeNext",
+        "outDir": "build",
+        "rootDir": "src",
+        "strict": true,
+        "esModuleInterop": true,
+        "noImplicitAny": false
+    },
+    "include": ["src/**/*"]
+}

@@ -1,0 +1,23 @@
+{
+    "name": "trans-layer",
+    "version": "1.0.0",
+    "main": "build/main.js",
+    "scripts": {
+        "start": "node build/main.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "@types/ws": "^8.18.1",
+        "dotenv": "^16.5.0",
+        "https-proxy-agent": "^7.0.6",
+        "socks-proxy-agent": "^8.0.5",
+        "typescript": "^5.8.3",
+        "uuid": "^11.1.0",
+        "ws": "^8.18.2",
+        "zombslib": "github:creaffy/zombslib"
+    },
+    "type": "module"
+}

@@ -1,0 +1,1654 @@
+{
+    "Codec": 19,
+    "Platform": "Android",
+    "Rpcs": [
+        {
+            "IsArray": false,
+            "NameHash": 1873201961,
+            "Parameters": [
+                {
+                    "Key": null,
+                    "NameHash": 3935897442,
+                    "Type": 3,
+                    "FieldName": "killer"
+                },
+                {
+                    "Key": 1757105647,
+                    "NameHash": 2583627822,
+                    "Type": 0,
+                    "FieldName": "killerUid"
+                },
+                {
+                    "Key": 1035863662,
+                    "NameHash": 1381436079,
+                    "Type": 0,
+                    "FieldName": "killerColor"
+                },
+                {
+                    "Key": null,
+                    "NameHash": 3889494034,
+                    "Type": 3,
+                    "FieldName": "victim"
+                },
+                {
+                    "Key": 3494294803,
+                    "NameHash": 3133137008,
+                    "Type": 0,
+                    "FieldName": "victimUid"
+                },
+                {
+                    "Key": 1122746218,
+                    "NameHash": 3461671421,
+                    "Type": 0,
+                    "FieldName": "victimColor"
+                },
+                {
+                    "Key": 1788763052,
+                    "NameHash": 579565025,
+                    "Type": 0,
+                    "FieldName": "category"
+                },
+                {
+                    "Key": 4002075622,
+                    "NameHash": 855246944,
+                    "Type": 0,
+                    "FieldName": "weaponIndex"
+                },
+                {
+                    "Key": 3909424530,
+                    "NameHash": 828007007,
+                    "Type": 8,
+                    "FieldName": "knockedDown"
+                },
+                {
+                    "Key": 4076477534,
+                    "NameHash": 432287036,
+                    "Type": 8,
+                    "FieldName": "isZombie"
+                }
+            ],
+            "ClassName": "KillFeedRpc",
+            "ParentName": "InRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 4151827499,
+            "Parameters": [
+                {
+                    "Key": null,
+                    "NameHash": 4195898720,
+                    "Type": 10,
+                    "FieldName": "data"
+                }
+            ],
+            "ClassName": "ACToServerRpc",
+            "ParentName": "OutRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 2811770321,
+            "Parameters": [
+                {
+                    "Key": null,
+                    "NameHash": 3368285741,
+                    "Type": 3,
+                    "FieldName": "channel"
+                },
+                {
+                    "Key": null,
+                    "NameHash": 2202332738,
+                    "Type": 3,
+                    "FieldName": "message"
+                }
+            ],
+            "ClassName": "SendChatMessageRpc",
+            "ParentName": "OutRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 3042748145,
+            "Parameters": [
+                {
+                    "Key": 2058512826,
+                    "NameHash": 670051947,
+                    "Type": 0,
+                    "FieldName": "uid"
+                },
+                {
+                    "Key": 3697221889,
+                    "NameHash": 1173839850,
+                    "Type": 2,
+                    "FieldName": "healthDamage"
+                },
+                {
+                    "Key": 535642643,
+                    "NameHash": 1343694223,
+                    "Type": 2,
+                    "FieldName": "shieldDamage"
+                },
+                {
+                    "Key": 300437511,
+                    "NameHash": 276644704,
+                    "Type": 2,
+                    "FieldName": "knockedDownDamage"
+                }
+            ],
+            "ClassName": "DamageRpc",
+            "ParentName": "InRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 386303904,
+            "Parameters": [
+                {
+                    "Key": null,
+                    "NameHash": 2155068634,
+                    "Type": 3,
+                    "FieldName": "displayName"
+                },
+                {
+                    "Key": null,
+                    "NameHash": 2218140873,
+                    "Type": 3,
+                    "FieldName": "channel"
+                },
+                {
+                    "Key": null,
+                    "NameHash": 2919483534,
+                    "Type": 3,
+                    "FieldName": "message"
+                },
+                {
+                    "Key": 3990698372,
+                    "NameHash": 3549229287,
+                    "Type": 0,
+                    "FieldName": "uid"
+                }
+            ],
+            "ClassName": "ReceiveChatMessageRpc",
+            "ParentName": "InRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 1854693576,
+            "Parameters": [
+                {
+                    "Key": null,
+                    "NameHash": 492264960,
+                    "Type": 3,
+                    "FieldName": "platform"
+                }
+            ],
+            "ClassName": "SetPlatformRpc",
+            "ParentName": "OutRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 3046173543,
+            "Parameters": [
+                {
+                    "Key": 4141668730,
+                    "NameHash": 4110153248,
+                    "Type": 0,
+                    "FieldName": "inventorySlot"
+                }
+            ],
+            "ClassName": "InventoryUpdateEquipRpc",
+            "ParentName": "InRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 3681646090,
+            "Parameters": [
+                {
+                    "Key": 2332073465,
+                    "NameHash": 3325747649,
+                    "Type": 0,
+                    "FieldName": "rank"
+                },
+                {
+                    "Key": 2808782370,
+                    "NameHash": 2291457247,
+                    "Type": 0,
+                    "FieldName": "kills"
+                },
+                {
+                    "Key": 3830564237,
+                    "NameHash": 2375620296,
+                    "Type": 0,
+                    "FieldName": "lifetime"
+                },
+                {
+                    "Key": 1870797321,
+                    "NameHash": 562359396,
+                    "Type": 0,
+                    "FieldName": "zombieKills"
+                },
+                {
+                    "Key": null,
+                    "NameHash": 1215819656,
+                    "Type": 3,
+                    "FieldName": "analytics"
+                },
+                {
+                    "Key": 845851649,
+                    "NameHash": 1237056802,
+                    "Type": 0,
+                    "FieldName": "resetTick"
+                }
+            ],
+            "ClassName": "EndOfGameStatsRpc",
+            "ParentName": "InRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 192337782,
+            "Parameters": [],
+            "ClassName": "ParachuteRpc",
+            "ParentName": "OutRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 841496687,
+            "Parameters": [
+                {
+                    "Key": 2851264078,
+                    "NameHash": 650179908,
+                    "Type": 2,
+                    "FieldName": "x"
+                },
+                {
+                    "Key": 422272405,
+                    "NameHash": 918235321,
+                    "Type": 2,
+                    "FieldName": "y"
+                },
+                {
+                    "Key": 1023374154,
+                    "NameHash": 2119873342,
+                    "Type": 8,
+                    "FieldName": "valid"
+                }
+            ],
+            "ClassName": "SetMarkerRpc",
+            "ParentName": "OutRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 232514188,
+            "Parameters": [
+                {
+                    "Key": 2993216929,
+                    "NameHash": 1537980233,
+                    "Type": 0,
+                    "FieldName": "playersAlive"
+                },
+                {
+                    "Key": 1063819405,
+                    "NameHash": 1504167370,
+                    "Type": 0,
+                    "FieldName": "totalPlayers"
+                },
+                {
+                    "Key": 2762832863,
+                    "NameHash": 1643343399,
+                    "Type": 0,
+                    "FieldName": "partiesAlive"
+                },
+                {
+                    "Key": 385731114,
+                    "NameHash": 1106152775,
+                    "Type": 0,
+                    "FieldName": "totalParties"
+                },
+                {
+                    "Key": 1558477641,
+                    "NameHash": 2125023552,
+                    "Type": 0,
+                    "FieldName": "team1Alive"
+                },
+                {
+                    "Key": 996325571,
+                    "NameHash": 337044131,
+                    "Type": 0,
+                    "FieldName": "team2Alive"
+                }
+            ],
+            "ClassName": "PlayerCountRpc",
+            "ParentName": "InRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 562003526,
+            "Parameters": [
+                {
+                    "Key": 3977661070,
+                    "NameHash": 2947782574,
+                    "Type": 0,
+                    "FieldName": "uid"
+                }
+            ],
+            "ClassName": "EnterVehicleRpc",
+            "ParentName": "OutRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 433342782,
+            "Parameters": [
+                {
+                    "Key": null,
+                    "NameHash": 1670791923,
+                    "Type": 3,
+                    "FieldName": "json"
+                }
+            ],
+            "ClassName": "AccountSessionRpc",
+            "ParentName": "InRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 2281772213,
+            "Parameters": [
+                {
+                    "Key": 4023158440,
+                    "NameHash": 3450915347,
+                    "Type": 2,
+                    "FieldName": "x"
+                },
+                {
+                    "Key": 3595209361,
+                    "NameHash": 2479507892,
+                    "Type": 2,
+                    "FieldName": "y"
+                },
+                {
+                    "Key": 4232654095,
+                    "NameHash": 1033873234,
+                    "Type": 0,
+                    "FieldName": "uid"
+                },
+                {
+                    "Key": 2889232116,
+                    "NameHash": 1693262417,
+                    "Type": 8,
+                    "FieldName": "valid"
+                }
+            ],
+            "ClassName": "UpdateMarkerRpc",
+            "ParentName": "InRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 1334682182,
+            "Parameters": [
+                {
+                    "Key": 3784704711,
+                    "NameHash": 2410903903,
+                    "Type": 0,
+                    "FieldName": "inputUid"
+                },
+                {
+                    "Key": 721685309,
+                    "NameHash": 308023486,
+                    "Type": 0,
+                    "FieldName": "acknowledgedTickNumber"
+                },
+                {
+                    "Key": 134468426,
+                    "NameHash": 1609332161,
+                    "Type": 8,
+                    "FieldName": "isPing"
+                },
+                {
+                    "Key": 1420180045,
+                    "NameHash": 4254132492,
+                    "Type": 9,
+                    "FieldName": "left"
+                },
+                {
+                    "Key": 72968218,
+                    "NameHash": 1557179110,
+                    "Type": 9,
+                    "FieldName": "right"
+                },
+                {
+                    "Key": 709434870,
+                    "NameHash": 303222339,
+                    "Type": 9,
+                    "FieldName": "down"
+                },
+                {
+                    "Key": 3388820193,
+                    "NameHash": 3434841670,
+                    "Type": 9,
+                    "FieldName": "up"
+                },
+                {
+                    "Key": 457095397,
+                    "NameHash": 2260617352,
+                    "Type": 9,
+                    "FieldName": "space"
+                },
+                {
+                    "Key": 1229749378,
+                    "NameHash": 2223953481,
+                    "Type": 7,
+                    "FieldName": "moveDirection"
+                },
+                {
+                    "Key": 3441633927,
+                    "NameHash": 4190883918,
+                    "Type": 9,
+                    "FieldName": "use"
+                },
+                {
+                    "Key": 2695576051,
+                    "NameHash": 241531606,
+                    "Type": 1,
+                    "FieldName": "worldX"
+                },
+                {
+                    "Key": 39111305,
+                    "NameHash": 2433189832,
+                    "Type": 1,
+                    "FieldName": "worldY"
+                },
+                {
+                    "Key": 4171683451,
+                    "NameHash": 284740100,
+                    "Type": 0,
+                    "FieldName": "distance"
+                },
+                {
+                    "Key": 2817173608,
+                    "NameHash": 599322502,
+                    "Type": 6,
+                    "FieldName": "yaw"
+                },
+                {
+                    "Key": 769168623,
+                    "NameHash": 3394029194,
+                    "Type": 7,
+                    "FieldName": "mouseDown"
+                },
+                {
+                    "Key": 2548193289,
+                    "NameHash": 81357733,
+                    "Type": 7,
+                    "FieldName": "mouseMovedWhileDown"
+                },
+                {
+                    "Key": 1857770708,
+                    "NameHash": 267976048,
+                    "Type": 7,
+                    "FieldName": "mouseMoved"
+                },
+                {
+                    "Key": 1915872311,
+                    "NameHash": 4109463256,
+                    "Type": 9,
+                    "FieldName": "mouseUp"
+                },
+                {
+                    "Key": 3080537593,
+                    "NameHash": 44050701,
+                    "Type": 2,
+                    "FieldName": "moveSpeed"
+                },
+                {
+                    "Key": 2835075303,
+                    "NameHash": 3506869860,
+                    "Type": 8,
+                    "FieldName": "rightMouseDown"
+                },
+                {
+                    "Key": 4059604981,
+                    "NameHash": 164138711,
+                    "Type": 2,
+                    "FieldName": "zoomFactor"
+                },
+                {
+                    "Key": 2460837586,
+                    "NameHash": 2357914652,
+                    "Type": 2,
+                    "FieldName": "unknown"
+                }
+            ],
+            "ClassName": "InputRpc",
+            "ParentName": "OutRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 615376711,
+            "Parameters": [
+                {
+                    "Key": 3663432452,
+                    "NameHash": 2008761863,
+                    "Type": 0,
+                    "FieldName": "sprayIndex2"
+                },
+                {
+                    "Key": 378554603,
+                    "NameHash": 1417683423,
+                    "Type": 2,
+                    "FieldName": "x"
+                },
+                {
+                    "Key": 3490151749,
+                    "NameHash": 1199715405,
+                    "Type": 2,
+                    "FieldName": "y"
+                }
+            ],
+            "ClassName": "SprayRpc",
+            "ParentName": "OutRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 672151626,
+            "Parameters": [
+                {
+                    "Key": 4225445963,
+                    "NameHash": 4246649640,
+                    "Type": 2,
+                    "FieldName": "x"
+                },
+                {
+                    "Key": 4148005029,
+                    "NameHash": 4069763113,
+                    "Type": 2,
+                    "FieldName": "y"
+                },
+                {
+                    "Key": 1734856972,
+                    "NameHash": 3643629483,
+                    "Type": 2,
+                    "FieldName": "yaw"
+                }
+            ],
+            "ClassName": "PlanePathRpc",
+            "ParentName": "InRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 2360558042,
+            "Parameters": [],
+            "ClassName": "ConsumeRpc",
+            "ParentName": "OutRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 3449940313,
+            "Parameters": [
+                {
+                    "Key": 4236675038,
+                    "NameHash": 3498900323,
+                    "Type": 0,
+                    "FieldName": "shutdownUnix"
+                },
+                {
+                    "Key": null,
+                    "NameHash": 1167358355,
+                    "Type": 3,
+                    "FieldName": "reason"
+                }
+            ],
+            "ClassName": "ShutdownRpc",
+            "ParentName": "InRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 1600513271,
+            "Parameters": [
+                {
+                    "Key": 2376172479,
+                    "NameHash": 922158023,
+                    "Type": 0,
+                    "FieldName": "reason"
+                }
+            ],
+            "ClassName": "PlaceBuildingFailedRpc",
+            "ParentName": "InRpc"
+        },
+        {
+            "IsArray": true,
+            "NameHash": 1073042768,
+            "Parameters": [
+                {
+                    "Key": 1043059786,
+                    "NameHash": 2124990161,
+                    "Type": 0,
+                    "FieldName": "index"
+                },
+                {
+                    "Key": 3373964234,
+                    "NameHash": 1118566531,
+                    "Type": 0,
+                    "FieldName": "count"
+                },
+                {
+                    "Key": 209625371,
+                    "NameHash": 3481851621,
+                    "Type": 0,
+                    "FieldName": "limit"
+                }
+            ],
+            "ClassName": "LoadoutUserRpc",
+            "ParentName": "InRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 1115315064,
+            "Parameters": [
+                {
+                    "Key": 3281878457,
+                    "NameHash": 2957462849,
+                    "Type": 0,
+                    "FieldName": "startTick"
+                },
+                {
+                    "Key": 3743122438,
+                    "NameHash": 3271377857,
+                    "Type": 0,
+                    "FieldName": "endTick"
+                }
+            ],
+            "ClassName": "GameTimerRpc",
+            "ParentName": "InRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 3094089109,
+            "Parameters": [],
+            "ClassName": "CheatingDetectedRpc",
+            "ParentName": "InRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 2800663663,
+            "Parameters": [],
+            "ClassName": "ExitVehicleRpc",
+            "ParentName": "OutRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 335265375,
+            "Parameters": [
+                {
+                    "Key": null,
+                    "NameHash": 2315706710,
+                    "Type": 10,
+                    "FieldName": "data"
+                }
+            ],
+            "ClassName": "ACToClientRpc",
+            "ParentName": "InRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 3339981364,
+            "Parameters": [
+                {
+                    "Key": 90845727,
+                    "NameHash": 2153124210,
+                    "Type": 8,
+                    "FieldName": "ammoIndex"
+                }
+            ],
+            "ClassName": "DropAmmoRpc",
+            "ParentName": "OutRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 949010234,
+            "Parameters": [
+                {
+                    "Key": 2028282107,
+                    "NameHash": 1843015839,
+                    "Type": 0,
+                    "FieldName": "itemUid"
+                },
+                {
+                    "Key": 3697116101,
+                    "NameHash": 1287536736,
+                    "Type": 0,
+                    "FieldName": "inventorySlot"
+                }
+            ],
+            "ClassName": "PickupItemRpc",
+            "ParentName": "OutRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 4176919878,
+            "Parameters": [
+                {
+                    "Key": 377047868,
+                    "NameHash": 3848798804,
+                    "Type": 0,
+                    "FieldName": "dataIndex"
+                },
+                {
+                    "Key": 1189263208,
+                    "NameHash": 3342284955,
+                    "Type": 0,
+                    "FieldName": "x"
+                },
+                {
+                    "Key": 766261256,
+                    "NameHash": 1199420454,
+                    "Type": 0,
+                    "FieldName": "y"
+                }
+            ],
+            "ClassName": "PlaceBuildingRpc",
+            "ParentName": "OutRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 2816073286,
+            "Parameters": [
+                {
+                    "Key": 3847576988,
+                    "NameHash": 2247345831,
+                    "Type": 8,
+                    "FieldName": "joined"
+                },
+                {
+                    "Key": 3671742804,
+                    "NameHash": 628551466,
+                    "Type": 0,
+                    "FieldName": "uid"
+                },
+                {
+                    "Key": null,
+                    "NameHash": 3691215209,
+                    "Type": 3,
+                    "FieldName": "playerName"
+                },
+                {
+                    "Key": null,
+                    "NameHash": 1908272842,
+                    "Type": 3,
+                    "FieldName": "friendCode"
+                }
+            ],
+            "ClassName": "PartyUpdateRpc",
+            "ParentName": "InRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 2411070846,
+            "Parameters": [
+                {
+                    "Key": 599235446,
+                    "NameHash": 2560739702,
+                    "Type": 2,
+                    "FieldName": "minFps"
+                },
+                {
+                    "Key": 2563978572,
+                    "NameHash": 4154413288,
+                    "Type": 2,
+                    "FieldName": "maxFps"
+                },
+                {
+                    "Key": 2850273529,
+                    "NameHash": 972007160,
+                    "Type": 2,
+                    "FieldName": "averageFps"
+                },
+                {
+                    "Key": 2760750291,
+                    "NameHash": 2109870965,
+                    "Type": 2,
+                    "FieldName": "currentFps"
+                },
+                {
+                    "Key": 2819952791,
+                    "NameHash": 3865488916,
+                    "Type": 2,
+                    "FieldName": "framesRendered"
+                },
+                {
+                    "Key": 3408601366,
+                    "NameHash": 4179576870,
+                    "Type": 2,
+                    "FieldName": "framesInterpolated"
+                },
+                {
+                    "Key": 1861452100,
+                    "NameHash": 3428414568,
+                    "Type": 2,
+                    "FieldName": "framesExtrapolated"
+                },
+                {
+                    "Key": 2219705389,
+                    "NameHash": 884191341,
+                    "Type": 2,
+                    "FieldName": "allocatedNetworkEntities"
+                },
+                {
+                    "Key": 653627598,
+                    "NameHash": 88150321,
+                    "Type": 2,
+                    "FieldName": "currentClientLag"
+                },
+                {
+                    "Key": 926605117,
+                    "NameHash": 1382435480,
+                    "Type": 2,
+                    "FieldName": "minClientLag"
+                },
+                {
+                    "Key": 711083947,
+                    "NameHash": 2642588505,
+                    "Type": 2,
+                    "FieldName": "maxClientLag"
+                },
+                {
+                    "Key": 3111743047,
+                    "NameHash": 1206560163,
+                    "Type": 2,
+                    "FieldName": "currentPing"
+                },
+                {
+                    "Key": 2982649864,
+                    "NameHash": 3724275912,
+                    "Type": 2,
+                    "FieldName": "minPing"
+                },
+                {
+                    "Key": 3845065303,
+                    "NameHash": 1136745748,
+                    "Type": 2,
+                    "FieldName": "maxPing"
+                },
+                {
+                    "Key": 1151575636,
+                    "NameHash": 2524593094,
+                    "Type": 2,
+                    "FieldName": "averagePing"
+                },
+                {
+                    "Key": 1157226453,
+                    "NameHash": 171859511,
+                    "Type": 2,
+                    "FieldName": "longFrames"
+                },
+                {
+                    "Key": 1723305139,
+                    "NameHash": 3880252259,
+                    "Type": 2,
+                    "FieldName": "stutters"
+                },
+                {
+                    "Key": 3748693153,
+                    "NameHash": 196879237,
+                    "Type": 2,
+                    "FieldName": "timeResets"
+                },
+                {
+                    "Key": 956452376,
+                    "NameHash": 3923484815,
+                    "Type": 2,
+                    "FieldName": "maxExtrapolationTime"
+                },
+                {
+                    "Key": 3726464340,
+                    "NameHash": 3878460135,
+                    "Type": 2,
+                    "FieldName": "extrapolationIncidents"
+                },
+                {
+                    "Key": 3131033966,
+                    "NameHash": 844418045,
+                    "Type": 2,
+                    "FieldName": "totalExtrapolationTime"
+                },
+                {
+                    "Key": 4212214377,
+                    "NameHash": 3508137805,
+                    "Type": 2,
+                    "FieldName": "differenceInClientTime"
+                },
+                {
+                    "Key": 3239998137,
+                    "NameHash": 3146824065,
+                    "Type": 2,
+                    "FieldName": "currentTickSize"
+                },
+                {
+                    "Key": 4217858637,
+                    "NameHash": 1280888521,
+                    "Type": 2,
+                    "FieldName": "maxTickSize"
+                },
+                {
+                    "Key": 2177834159,
+                    "NameHash": 2386088603,
+                    "Type": 2,
+                    "FieldName": "averageTickSize"
+                },
+                {
+                    "Key": 3156803482,
+                    "NameHash": 2438810655,
+                    "Type": 2,
+                    "FieldName": "packetLossPercent"
+                },
+                {
+                    "Key": 2842665515,
+                    "NameHash": 2074657268,
+                    "Type": 0,
+                    "FieldName": "pingRequestSentTick"
+                },
+                {
+                    "Key": 2115097437,
+                    "NameHash": 4200940606,
+                    "Type": 0,
+                    "FieldName": "pingResponseSentTick"
+                },
+                {
+                    "Key": 1371985819,
+                    "NameHash": 3686875269,
+                    "Type": 0,
+                    "FieldName": "pingResponseReceivedTick"
+                },
+                {
+                    "Key": 1980348903,
+                    "NameHash": 2546128783,
+                    "Type": 0,
+                    "FieldName": "usingUdp"
+                },
+                {
+                    "Key": 4244812919,
+                    "NameHash": 1367778336,
+                    "Type": 0,
+                    "FieldName": "group"
+                },
+                {
+                    "Key": 2973945526,
+                    "NameHash": 2249856156,
+                    "Type": 0,
+                    "FieldName": "stage"
+                },
+                {
+                    "Key": 2906799709,
+                    "NameHash": 2425077227,
+                    "Type": 0,
+                    "FieldName": "isMobile"
+                }
+            ],
+            "ClassName": "MetricsRpc",
+            "ParentName": "OutRpc"
+        },
+        {
+            "IsArray": true,
+            "NameHash": 98205597,
+            "Parameters": [
+                {
+                    "Key": 2358532027,
+                    "NameHash": 54094337,
+                    "Type": 0,
+                    "FieldName": "slot"
+                },
+                {
+                    "Key": 3948448033,
+                    "NameHash": 4208187126,
+                    "Type": 0,
+                    "FieldName": "subSlot"
+                },
+                {
+                    "Key": 635930498,
+                    "NameHash": 1436084535,
+                    "Type": 0,
+                    "FieldName": "skinId"
+                }
+            ],
+            "ClassName": "SetSkinRpc",
+            "ParentName": "OutRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 3337903746,
+            "Parameters": [
+                {
+                    "Key": null,
+                    "NameHash": 2859624836,
+                    "Type": 3,
+                    "FieldName": "key"
+                },
+                {
+                    "Key": 2900843403,
+                    "NameHash": 290650764,
+                    "Type": 0,
+                    "FieldName": "players"
+                }
+            ],
+            "ClassName": "JoinTeamRpc",
+            "ParentName": "OutRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 3134788537,
+            "Parameters": [
+                {
+                    "Key": 3069194841,
+                    "NameHash": 4190013549,
+                    "Type": 0,
+                    "FieldName": "inventorySlot1"
+                },
+                {
+                    "Key": 2007763805,
+                    "NameHash": 4285208413,
+                    "Type": 0,
+                    "FieldName": "inventorySlot2"
+                }
+            ],
+            "ClassName": "SwapItemRpc",
+            "ParentName": "OutRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 1963484122,
+            "Parameters": [
+                {
+                    "Key": null,
+                    "NameHash": 3864900854,
+                    "Type": 3,
+                    "FieldName": "json"
+                }
+            ],
+            "ClassName": "LoginResponseRpc",
+            "ParentName": "InRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 1396247743,
+            "Parameters": [
+                {
+                    "Key": 968022867,
+                    "NameHash": 2066092376,
+                    "Type": 8,
+                    "FieldName": "attemptedUdp"
+                },
+                {
+                    "Key": 3454157778,
+                    "NameHash": 1643223928,
+                    "Type": 8,
+                    "FieldName": "received500"
+                }
+            ],
+            "ClassName": "StartTcpStreamRpc",
+            "ParentName": "OutRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 53987911,
+            "Parameters": [
+                {
+                    "Key": 10779434,
+                    "NameHash": 1535981846,
+                    "Type": 0,
+                    "FieldName": "startTick"
+                },
+                {
+                    "Key": 1886358857,
+                    "NameHash": 1775352507,
+                    "Type": 0,
+                    "FieldName": "endTick"
+                },
+                {
+                    "Key": 3245045880,
+                    "NameHash": 1403348143,
+                    "Type": 8,
+                    "FieldName": "isDay"
+                }
+            ],
+            "ClassName": "DayNightRpc",
+            "ParentName": "InRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 2787408049,
+            "Parameters": [
+                {
+                    "Key": null,
+                    "NameHash": 988800627,
+                    "Type": 3,
+                    "FieldName": "status"
+                },
+                {
+                    "Key": 814116765,
+                    "NameHash": 1759204708,
+                    "Type": 0,
+                    "FieldName": "countDownEndsTick"
+                }
+            ],
+            "ClassName": "GameStatusRpc",
+            "ParentName": "InRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 867508779,
+            "Parameters": [
+                {
+                    "Key": 3089733581,
+                    "NameHash": 1023743306,
+                    "Type": 0,
+                    "FieldName": "buildingUid"
+                },
+                {
+                    "Key": 3460705836,
+                    "NameHash": 3022470053,
+                    "Type": 0,
+                    "FieldName": "doorIndex"
+                },
+                {
+                    "Key": 3958628576,
+                    "NameHash": 135734743,
+                    "Type": 8,
+                    "FieldName": "close"
+                }
+            ],
+            "ClassName": "InteractDoorRpc",
+            "ParentName": "OutRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 4265747958,
+            "Parameters": [],
+            "ClassName": "ResetGameRpc",
+            "ParentName": "InRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 1087191500,
+            "Parameters": [
+                {
+                    "Key": 2505245303,
+                    "NameHash": 1152888289,
+                    "Type": 0,
+                    "FieldName": "uid"
+                }
+            ],
+            "ClassName": "SpectateRpc",
+            "ParentName": "OutRpc"
+        },
+        {
+            "IsArray": true,
+            "NameHash": 558466758,
+            "Parameters": [
+                {
+                    "Key": 2119709966,
+                    "NameHash": 1384177890,
+                    "Type": 0,
+                    "FieldName": "uid"
+                },
+                {
+                    "Key": 3248156685,
+                    "NameHash": 851335066,
+                    "Type": 0,
+                    "FieldName": "rank"
+                },
+                {
+                    "Key": null,
+                    "NameHash": 2125102563,
+                    "Type": 3,
+                    "FieldName": "playerName"
+                },
+                {
+                    "Key": 2960911356,
+                    "NameHash": 1215645714,
+                    "Type": 0,
+                    "FieldName": "kills"
+                }
+            ],
+            "ClassName": "LeaderboardRpc",
+            "ParentName": "InRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 1922094063,
+            "Parameters": [
+                {
+                    "Key": 253175096,
+                    "NameHash": 2389348846,
+                    "Type": 0,
+                    "FieldName": "index"
+                }
+            ],
+            "ClassName": "SetLoadoutRpc",
+            "ParentName": "OutRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 2865977911,
+            "Parameters": [],
+            "ClassName": "RespawnPendingRpc",
+            "ParentName": "OutRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 2328087720,
+            "Parameters": [],
+            "ClassName": "DataFinishedRpc",
+            "ParentName": "InRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 1996576108,
+            "Parameters": [
+                {
+                    "Key": 2736092780,
+                    "NameHash": 3080227995,
+                    "Type": 8,
+                    "FieldName": "respawnWithHalf"
+                }
+            ],
+            "ClassName": "RespawnRpc",
+            "ParentName": "OutRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 502599687,
+            "Parameters": [],
+            "ClassName": "ReloadServerRpc",
+            "ParentName": "OutRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 3225795379,
+            "Parameters": [
+                {
+                    "Key": null,
+                    "NameHash": 3686347277,
+                    "Type": 3,
+                    "FieldName": "dataName"
+                },
+                {
+                    "Key": null,
+                    "NameHash": 2996882380,
+                    "Type": 11,
+                    "FieldName": "json"
+                }
+            ],
+            "ClassName": "CompressedDataRpc",
+            "ParentName": "InRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 4282266362,
+            "Parameters": [
+                {
+                    "Key": 734204265,
+                    "NameHash": 2567795183,
+                    "Type": 0,
+                    "FieldName": "chestUid"
+                }
+            ],
+            "ClassName": "LootChestRpc",
+            "ParentName": "OutRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 4230123737,
+            "Parameters": [
+                {
+                    "Key": 3882498628,
+                    "NameHash": 272849275,
+                    "Type": 0,
+                    "FieldName": "inventorySlot"
+                },
+                {
+                    "Key": 2279988105,
+                    "NameHash": 496213175,
+                    "Type": 0,
+                    "FieldName": "categoryId"
+                },
+                {
+                    "Key": 1556966353,
+                    "NameHash": 2173805804,
+                    "Type": 0,
+                    "FieldName": "dataIndex"
+                },
+                {
+                    "Key": 1827054061,
+                    "NameHash": 790906517,
+                    "Type": 0,
+                    "FieldName": "tier"
+                },
+                {
+                    "Key": 964186472,
+                    "NameHash": 1129183611,
+                    "Type": 0,
+                    "FieldName": "stacks"
+                },
+                {
+                    "Key": 1743140180,
+                    "NameHash": 1007087158,
+                    "Type": 0,
+                    "FieldName": "skinId"
+                },
+                {
+                    "Key": 1977366551,
+                    "NameHash": 2354840466,
+                    "Type": 0,
+                    "FieldName": "modifierIndex"
+                }
+            ],
+            "ClassName": "InventoryUpdateRpc",
+            "ParentName": "InRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 456998898,
+            "Parameters": [
+                {
+                    "Key": 1245094350,
+                    "NameHash": 3862841460,
+                    "Type": 0,
+                    "FieldName": "party"
+                }
+            ],
+            "ClassName": "SetPartyColorRpc",
+            "ParentName": "OutRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 3066396726,
+            "Parameters": [
+                {
+                    "Key": 1908216710,
+                    "NameHash": 3083366812,
+                    "Type": 8,
+                    "FieldName": "isBuilding"
+                }
+            ],
+            "ClassName": "SetBuildingModeRpc",
+            "ParentName": "OutRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 3353939213,
+            "Parameters": [
+                {
+                    "Key": null,
+                    "NameHash": 2786618831,
+                    "Type": 3,
+                    "FieldName": "token"
+                }
+            ],
+            "ClassName": "LoginRpc",
+            "ParentName": "OutRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 3471460246,
+            "Parameters": [],
+            "ClassName": "StartUdpStreamRpc",
+            "ParentName": "OutRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 3674726838,
+            "Parameters": [],
+            "ClassName": "AutoFillRpc",
+            "ParentName": "OutRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 3485049569,
+            "Parameters": [
+                {
+                    "Key": 3112099362,
+                    "NameHash": 4237071908,
+                    "Type": 0,
+                    "FieldName": "index"
+                },
+                {
+                    "Key": 1472151269,
+                    "NameHash": 499519238,
+                    "Type": 0,
+                    "FieldName": "killsTowardsNextGun"
+                },
+                {
+                    "Key": 1736350566,
+                    "NameHash": 3445496487,
+                    "Type": 0,
+                    "FieldName": "killsRequiredForNextGun"
+                }
+            ],
+            "ClassName": "GunGameWeaponRpc",
+            "ParentName": "InRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 762513445,
+            "Parameters": [
+                {
+                    "Key": null,
+                    "NameHash": 1399551346,
+                    "Type": 3,
+                    "FieldName": "dataName"
+                },
+                {
+                    "Key": null,
+                    "NameHash": 1148992617,
+                    "Type": 3,
+                    "FieldName": "json"
+                }
+            ],
+            "ClassName": "DataRpc",
+            "ParentName": "InRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 3603383821,
+            "Parameters": [],
+            "ClassName": "ReloadRpc",
+            "ParentName": "OutRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 3768699241,
+            "Parameters": [],
+            "ClassName": "CancelActionRpc",
+            "ParentName": "OutRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 1523656496,
+            "Parameters": [
+                {
+                    "Key": 777426141,
+                    "NameHash": 413418137,
+                    "Type": 0,
+                    "FieldName": null
+                },
+                {
+                    "Key": 3946510025,
+                    "NameHash": 2153363192,
+                    "Type": 0,
+                    "FieldName": null
+                }
+            ],
+            "ClassName": null,
+            "ParentName": "InRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 847829603,
+            "Parameters": [],
+            "ClassName": "LootCategoryOverrideRpc",
+            "ParentName": "InRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 2971298321,
+            "Parameters": [
+                {
+                    "Key": 1747826176,
+                    "NameHash": 2825511598,
+                    "Type": 0,
+                    "FieldName": "rank"
+                },
+                {
+                    "Key": 1701555244,
+                    "NameHash": 1284484713,
+                    "Type": 0,
+                    "FieldName": "kills"
+                },
+                {
+                    "Key": 3601642709,
+                    "NameHash": 1855448429,
+                    "Type": 0,
+                    "FieldName": "lifetime"
+                },
+                {
+                    "Key": 351998786,
+                    "NameHash": 729461884,
+                    "Type": 0,
+                    "FieldName": "respawnAllowedAt"
+                }
+            ],
+            "ClassName": "DeadRpc",
+            "ParentName": "InRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 4191520324,
+            "Parameters": [
+                {
+                    "Key": 3044772728,
+                    "NameHash": 2044629534,
+                    "Type": 0,
+                    "FieldName": "inventorySlot"
+                },
+                {
+                    "Key": 2104774547,
+                    "NameHash": 3828927239,
+                    "Type": 2,
+                    "FieldName": "x"
+                },
+                {
+                    "Key": 812491996,
+                    "NameHash": 3934041029,
+                    "Type": 2,
+                    "FieldName": "y"
+                }
+            ],
+            "ClassName": "DropItemRpc",
+            "ParentName": "OutRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 1079746464,
+            "Parameters": [
+                {
+                    "Key": 4089142860,
+                    "NameHash": 1595403043,
+                    "Type": 0,
+                    "FieldName": "index"
+                }
+            ],
+            "ClassName": "SetClientLoadoutRpc",
+            "ParentName": "InRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 627237697,
+            "Parameters": [
+                {
+                    "Key": 4097876779,
+                    "NameHash": 3404817824,
+                    "Type": 0,
+                    "FieldName": "emote2"
+                }
+            ],
+            "ClassName": "SetEmoteRpc",
+            "ParentName": "OutRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 4112195632,
+            "Parameters": [],
+            "ClassName": "StartCircleRpc",
+            "ParentName": "OutRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 153684566,
+            "Parameters": [],
+            "ClassName": "StartLobbyRpc",
+            "ParentName": "OutRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 2475507047,
+            "Parameters": [
+                {
+                    "Key": 1445714692,
+                    "NameHash": 208762185,
+                    "Type": 0,
+                    "FieldName": "inventorySlot"
+                }
+            ],
+            "ClassName": "EquipItemRpc",
+            "ParentName": "OutRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 2519479163,
+            "Parameters": [
+                {
+                    "Key": 3718464585,
+                    "NameHash": 2081602035,
+                    "Type": 0,
+                    "FieldName": "uid"
+                }
+            ],
+            "ClassName": "StartReviveRpc",
+            "ParentName": "OutRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 339130804,
+            "Parameters": [],
+            "ClassName": "PartyLeftRpc",
+            "ParentName": "InRpc"
+        },
+        {
+            "IsArray": false,
+            "NameHash": 1861632854,
+            "Parameters": [
+                {
+                    "Key": 1659927808,
+                    "NameHash": 2032694015,
+                    "Type": 0,
+                    "FieldName": "landingTick"
+                },
+                {
+                    "Key": 926832280,
+                    "NameHash": 1629742745,
+                    "Type": 0,
+                    "FieldName": "airDropUid"
+                },
+                {
+                    "Key": 412021389,
+                    "NameHash": 839651496,
+                    "Type": 2,
+                    "FieldName": "x"
+                },
+                {
+                    "Key": 2005065531,
+                    "NameHash": 2292908844,
+                    "Type": 2,
+                    "FieldName": "y"
+                }
+            ],
+            "ClassName": "AirDropRpc",
+            "ParentName": "InRpc"
+        }
+    ]
+}
