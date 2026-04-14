@@ -184,34 +184,26 @@ export namespace ZRProxy {
                                     w_enterWorldResponse,
                                 ),
                             );
+
                             break;
                         }
                         case PacketId.Rpc: {
-                            const decrypedData =
-                                a_codec.crypto.cryptRpc(dataArray);
+                            const a_rpc = a_codec.decodeRpc(
+                                a_codec.crypto.cryptRpc(dataArray)!,
+                                false,
+                            );
 
-                            const definition =
-                                a_codec.enterWorldResponse.rpcs!.find(
-                                    (rpc) => rpc.index === decrypedData[1],
+                            if (a_rpc) {
+                                const w_rpc = w_codec.encodeRpc(
+                                    a_rpc.name,
+                                    a_rpc.data,
+                                    a_rpc.extra.tick,
                                 );
 
-                            if (definition !== undefined) {
-                                const a_rpc = a_codec.decodeRpc(
-                                    definition!,
-                                    decrypedData,
-                                    false,
-                                );
-
-                                if (a_rpc) {
-                                    const w_rpc = w_codec.encodeRpc(
-                                        a_rpc.name,
-                                        a_rpc.data,
-                                        false,
-                                        a_rpc.extra.tick,
+                                if (w_rpc) {
+                                    client.send(
+                                        w_codec.crypto.cryptRpc(w_rpc)!,
                                     );
-                                    if (w_rpc) {
-                                        client.send(w_rpc);
-                                    }
                                 }
                             }
                             break;
@@ -269,36 +261,26 @@ export namespace ZRProxy {
                             break;
                         }
                         case PacketId.Rpc: {
-                            const decrypedData =
-                                w_codec.crypto.cryptRpc(dataArray);
+                            const w_rpc = w_codec.decodeRpc(
+                                w_codec.crypto.cryptRpc(dataArray)!,
+                                false,
+                            );
 
-                            const definition =
-                                w_codec.enterWorldResponse.rpcs!.find(
-                                    (rpc) => rpc.index === decrypedData[1],
+                            if (w_rpc?.name === "SetPlatformRpc") {
+                                (w_rpc.data as SetPlatformRpc).platform =
+                                    "Android";
+                            }
+
+                            if (w_rpc) {
+                                const a_rpc = a_codec.encodeRpc(
+                                    w_rpc.name,
+                                    w_rpc.data,
                                 );
 
-                            if (definition !== undefined) {
-                                const w_rpc = w_codec.decodeRpc(
-                                    definition!,
-                                    decrypedData,
-                                    false,
-                                );
-
-                                if (w_rpc?.name === "SetPlatformRpc") {
-                                    (w_rpc.data as SetPlatformRpc).platform =
-                                        "Android";
-                                }
-
-                                if (w_rpc) {
-                                    const a_rpc = a_codec.encodeRpc(
-                                        w_rpc.name,
-                                        w_rpc.data,
-                                        false,
+                                if (a_rpc) {
+                                    server.send(
+                                        a_codec.crypto.cryptRpc(a_rpc)!,
                                     );
-
-                                    if (a_rpc) {
-                                        server.send(a_rpc);
-                                    }
                                 }
                             }
                             break;
@@ -338,26 +320,15 @@ export namespace ZRProxy {
                 const packetId = msg[0] as PacketId;
                 switch (packetId) {
                     case PacketId.Rpc: {
-                        const definition =
-                            a_codec.enterWorldResponse.rpcs!.find(
-                                (rpc) => rpc.index === msg[5],
+                        const a_rpc = a_codec.decodeRpc(msg, true);
+                        if (a_rpc) {
+                            const w_rpc = w_codec.encodeUdpRpc(
+                                a_rpc?.name,
+                                a_rpc?.data,
+                                a_rpc?.extra.tick,
                             );
-                        if (definition) {
-                            const a_rpc = a_codec.decodeRpc(
-                                definition!,
-                                msg,
-                                true,
-                            );
-                            if (a_rpc) {
-                                const w_rpc = w_codec.encodeRpc(
-                                    a_rpc?.name,
-                                    a_rpc?.data,
-                                    true,
-                                    a_rpc?.extra.tick,
-                                );
-                                if (w_rpc) {
-                                    proxy.send(w_rpc, port, "127.0.0.1");
-                                }
+                            if (w_rpc) {
+                                proxy.send(w_rpc, port, "127.0.0.1");
                             }
                         }
                         break;
@@ -372,30 +343,19 @@ export namespace ZRProxy {
                 const packetId = msg[0] as PacketId;
                 switch (packetId) {
                     case PacketId.Rpc: {
-                        const definition =
-                            w_codec.enterWorldResponse.rpcs!.find(
-                                (rpc) => rpc.index === msg[5],
+                        const w_rpc = w_codec.decodeUdpRpc(msg);
+                        if (w_rpc) {
+                            const a_rpc = a_codec.encodeUdpRpc(
+                                w_rpc?.name,
+                                w_rpc?.data,
+                                w_rpc?.extra.tick,
                             );
-                        if (definition) {
-                            const w_rpc = w_codec.decodeRpc(
-                                definition,
-                                msg,
-                                true,
-                            );
-                            if (w_rpc) {
-                                const a_rpc = a_codec.encodeRpc(
-                                    w_rpc?.name,
-                                    w_rpc?.data,
-                                    true,
-                                    w_rpc?.extra.tick,
+                            if (a_rpc) {
+                                proxy.send(
+                                    a_rpc,
+                                    a_codec.enterWorldResponse!.udpPort!,
+                                    gameServer.ipv4,
                                 );
-                                if (a_rpc) {
-                                    proxy.send(
-                                        a_rpc,
-                                        a_codec.enterWorldResponse!.udpPort!,
-                                        gameServer.ipv4,
-                                    );
-                                }
                             }
                         }
 
