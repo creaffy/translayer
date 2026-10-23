@@ -14,7 +14,7 @@ Middleware for ZombsRoyale.io - translates Windows packets into Android ones usi
 
 # Usage
 1. Fix protocol mappings and POW generation.
-2. Run Translayer. It will start 3 listeners:
+2. Build and run Translayer. It will start 3 listeners:
    - Port 3002: Mason Service proxy
    - Port 3003: TCP gameserver proxy
    - Port 3004: UDP gameserver proxy
