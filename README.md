@@ -1,3 +1,10 @@
+# DISCONTINUED ❌
+Since we no longer maintain zombslib, in order to use this project, you would need to dump protocol mappings from both the Windows and Android yourself. This task could render itself quite complex and it may be necessary to use AI reverse-engineering tools to get it done.
+Join our [Discord server](https://discord.gg/invite/E5QWPx6TrX) if you need help.
+
+Thanks for stopping by. <br/>
+_\~ xor&pray_
+
 # Translayer
 Middleware for ZombsRoyale.io - translates Windows packets into Android ones using [zombslib](https://github.com/creaffy/zombslib). Essentially a platform spoofer.
 
@@ -14,10 +21,6 @@ Middleware for ZombsRoyale.io - translates Windows packets into Android ones usi
 3. Mod your Zombs Royale client and force it to connect to `localhost:3002` instead of the real Mason Service.
 
 That's it.
-
-# Notice
-Since Zombslib is no longer maintained, in order to use this project, you would need to dump protocol mappings from both the Windows and Android yourself. This task is quite complex and it may be necessary to use AI reverse-engineering tools to get it done.
-Join our [Discord server](https://discord.gg/invite/E5QWPx6TrX) if you need some help.
 
 # Disclaimer
 This project is unofficial and not affiliated with Zombs Royale or Endgame. Use responsibly and at your own risk.
